@@ -1,0 +1,285 @@
+[
+    {
+        "eventId": "POS_formation_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "formation_change",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:00:00.000Z",
+        "minute": 0,
+        "team": "Manchester United",
+        "formation": "4-2-3-1",
+        "positions": {
+            "onana_a": {"x": 5, "y": 50, "zone": "goalkeeper_area"},
+            "dalot_d": {"x": 20, "y": 85, "zone": "right_back"},
+            "varane_r": {"x": 15, "y": 35, "zone": "center_back"},
+            "martinez_l": {"x": 15, "y": 65, "zone": "center_back"},
+            "shaw_l": {"x": 20, "y": 15, "zone": "left_back"},
+            "casemiro": {"x": 35, "y": 50, "zone": "defensive_midfield"},
+            "fernandes_b": {"x": 55, "y": 50, "zone": "attacking_midfield"},
+            "rashford_m": {"x": 75, "y": 75, "zone": "right_wing"},
+            "sancho_j": {"x": 75, "y": 25, "zone": "left_wing"},
+            "ronaldo_c": {"x": 85, "y": 50, "zone": "striker"}
+        }
+    },
+    {
+        "eventId": "POS_defensive_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "defensive_shape",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:02:30.000Z",
+        "minute": 2,
+        "team": "Manchester United",
+        "defensive_positions": {
+            "varane_r": {"x": 12, "y": 45, "compactness": 0.9, "covering_center": true},
+            "martinez_l": {"x": 12, "y": 55, "compactness": 0.9, "covering_center": true},
+            "dalot_d": {"x": 18, "y": 78, "compactness": 0.8, "covering_right": true},
+            "shaw_l": {"x": 18, "y": 22, "compactness": 0.8, "covering_left": true},
+            "casemiro": {"x": 28, "y": 50, "compactness": 0.95, "defensive_midfield_cover": true}
+        },
+        "defensive_metrics": {
+            "shape_compactness": 0.88,
+            "width": 56,
+            "depth": 28,
+            "pressing_intensity": "medium"
+        }
+    },
+    {
+        "eventId": "POS_attack_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "attacking_movement",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:05:45.000Z",
+        "minute": 5,
+        "team": "Manchester United",
+        "attacking_positions": {
+            "rashford_m": {"x": 82, "y": 78, "movement_type": "cut_inside", "run_type": "overlapping"},
+            "sancho_j": {"x": 79, "y": 18, "movement_type": "stay_wide", "run_type": "underlapping"},
+            "fernandes_b": {"x": 68, "y": 45, "movement_type": "central_movement", "run_type": "between_lines"},
+            "ronaldo_c": {"x": 88, "y": 52, "movement_type": "striker_movement", "run_type": "false_nine"}
+        },
+        "attacking_shape": {
+            "width": 60,
+            "depth": 88,
+            "forward_runs": 3,
+            "overlaps": 1,
+            "underlaps": 1
+        }
+    },
+    {
+        "eventId": "POS_transition_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "counter_attack",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:08:20.000Z",
+        "minute": 8,
+        "team": "Everton",
+        "transition_movement": {
+            "gray_d": {"x": 75, "y": 82, "speed": 8.2, "direction": "forward_right"},
+            "calvert_lewin_d": {"x": 78, "y": 48, "speed": 7.8, "direction": "forward"},
+            "iwobi_a": {"x": 65, "y": 55, "speed": 6.9, "direction": "forward"},
+            "doucouré_a": {"x": 45, "y": 52, "speed": 7.1, "direction": "supporting"}
+        },
+        "counter_attack_metrics": {
+            "speed_of_transition": 4.2,
+            "players_involved": 4,
+            "defensive_line_breached": false,
+            "pressing_resistance": 0.7
+        }
+    },
+    {
+        "eventId": "POS_set_piece_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "corner_kick_setup",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:10:15.000Z",
+        "minute": 10,
+        "team": "Manchester United",
+        "set_piece_positions": {
+            "taker": {"player_id": "dalot_d", "x": 95, "y": 5},
+            "near_post": {"player_id": "varane_r", "x": 8, "y": 45},
+            "far_post": {"player_id": "shaw_l", "x": 12, "y": 15},
+            "edge_of_box": {"player_id": "fernandes_b", "x": 75, "y": 40},
+            "penalty_spot": {"player_id": "ronaldo_c", "x": 10, "y": 50}
+        },
+        "set_piece_strategy": "traditional_corner"
+    },
+    {
+        "eventId": "POS_defensive_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "pressing_trap",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:12:40.000Z",
+        "minute": 12,
+        "team": "Everton",
+        "pressing_positions": {
+            "gray_d": {"x": 72, "y": 78, "pressing_intensity": 0.9, "target_player": "dalot_d"},
+            "iwobi_a": {"x": 65, "y": 55, "pressing_intensity": 0.8, "target_player": "fernandes_b"},
+            "doucouré_a": {"x": 58, "y": 52, "pressing_intensity": 0.95, "target_player": "casemiro"},
+            "davies_t": {"x": 55, "y": 48, "pressing_intensity": 0.85, "target_player": "casemiro"}
+        },
+        "pressing_metrics": {
+            "collective_compactness": 0.87,
+            "pressing_triggers": ["ball_near_halfway", "pass_received"],
+            "recovery_time_seconds": 3.2,
+            "success_rate": 0.75
+        }
+    },
+    {
+        "eventId": "POS_attack_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "buildup_play",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:15:30.000Z",
+        "minute": 15,
+        "team": "Everton",
+        "buildup_positions": {
+            "pickford_j": {"x": 8, "y": 50, "distribution_type": "long_ball"},
+            "tarkowski_j": {"x": 25, "y": 35, "progression_type": "lateral_pass"},
+            "keane_m": {"x": 25, "y": 65, "progression_type": "forward_pass"},
+            "digne_l": {"x": 30, "y": 15, "progression_type": "overlapping_run"},
+            "coleman_s": {"x": 30, "y": 85, "progression_type": "overlapping_run"}
+        },
+        "buildup_style": "possession_based"
+    },
+    {
+        "eventId": "POS_offensive_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "wing_play",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:18:55.000Z",
+        "minute": 18,
+        "team": "Manchester United",
+        "wing_positions": {
+            "rashford_m": {"x": 85, "y": 80, "wing_side": "right", "movement": "cut_back"},
+            "dalot_d": {"x": 88, "y": 90, "wing_side": "right", "movement": "overlapping"},
+            "sancho_j": {"x": 82, "y": 15, "wing_side": "left", "movement": "underlapping"},
+            "shaw_l": {"x": 85, "y": 10, "wing_side": "left", "movement": "underlapping"}
+        },
+        "wing_play_metrics": {
+            "width_maintained": 75,
+            "cross_quality": 0.82,
+            "end_product": "assist"
+        }
+    },
+    {
+        "eventId": "POS_defensive_line_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "defensive_line",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:21:10.000Z",
+        "minute": 21,
+        "team": "Manchester United",
+        "defensive_line": {
+            "left_back": {"player_id": "shaw_l", "x": 22, "y": 18, "depth": 22},
+            "left_center": {"player_id": "martinez_l", "x": 18, "y": 55, "depth": 18},
+            "right_center": {"player_id": "varane_r", "x": 18, "y": 45, "depth": 18},
+            "right_back": {"player_id": "dalot_d", "x": 22, "y": 82, "depth": 22}
+        },
+        "line_metrics": {
+            "compactness": 0.91,
+            "balance": 0.88,
+            "depth": 20,
+            "vulnerability_score": 0.15
+        }
+    },
+    {
+        "eventId": "POS_attack_buildup_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "progressive_buildup",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:24:45.000Z",
+        "minute": 24,
+        "team": "Everton",
+        "progressive_movement": {
+            "digne_l": {"start_x": 35, "start_y": 20, "end_x": 65, "end_y": 35, "progression_meters": 35},
+            "doucouré_a": {"start_x": 45, "start_y": 55, "end_x": 70, "end_y": 60, "progression_meters": 28},
+            "gray_d": {"start_x": 75, "start_y": 80, "end_x": 85, "end_y": 65, "progression_meters": 18}
+        },
+        "buildup_quality": {
+            "progression_rate": 0.78,
+            "verticality_index": 0.65,
+            "risk_assessment": 0.3
+        }
+    },
+    {
+        "eventId": "POS_set_piece_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "free_kick_wall",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:27:20.000Z",
+        "minute": 27,
+        "team": "Manchester United",
+        "wall_positions": {
+            "wall_player_1": {"player_id": "rashford_m", "x": 75, "y": 45, "distance_from_ball": 9.2},
+            "wall_player_2": {"player_id": "fernandes_b", "x": 76, "y": 48, "distance_from_ball": 9.8},
+            "wall_player_3": {"player_id": "casemiro", "x": 77, "y": 51, "distance_from_ball": 10.1},
+            "wall_player_4": {"player_id": "sancho_j", "x": 75, "y": 54, "distance_from_ball": 9.5}
+        },
+        "wall_setup": {
+            "compactness": 0.92,
+            "height": 9,
+            "angle_to_goal": 15,
+            "gaps_covered": true
+        }
+    },
+    {
+        "eventId": "POS_counter_attack_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "fast_break",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:30:15.000Z",
+        "minute": 30,
+        "team": "Manchester United",
+        "fast_break_positions": {
+            "rashford_m": {"x": 88, "y": 75, "speed_kmh": 31.2, "role": "attacker"},
+            "ronaldo_c": {"x": 92, "y": 52, "speed_kmh": 28.8, "role": "support_striker"},
+            "fernandes_b": {"x": 78, "y": 48, "speed_kmh": 26.5, "role": "link_player"}
+        },
+        "break_metrics": {
+            "transition_speed": 3.8,
+            "numerical_advantage": 3,
+            "defensive_coverage_breached": true,
+            "goal_probability": 0.35
+        }
+    },
+    {
+        "eventId": "POS_formation_eve_1",
+        "event_type": "player_positioning",
+        "sub_type": "formation_shift",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:35:00.000Z",
+        "minute": 35,
+        "team": "Everton",
+        "formation_change": {
+            "from_formation": "4-3-3",
+            "to_formation": "5-3-2",
+            "trigger": "defensive_set_piece",
+            "player_movements": {
+                "coleman_s": {"from_position": "RB", "to_position": "RWB", "x_shift": 5, "y_shift": -3},
+                "tarkowski_j": {"from_position": "CB", "to_position": "CB", "x_shift": 2, "y_shift": 0},
+                "keane_m": {"from_position": "CB", "to_position": "CB", "x_shift": 2, "y_shift": 0},
+                "digne_l": {"from_position": "LB", "to_position": "LWB", "x_shift": 5, "y_shift": 3}
+            }
+        }
+    },
+    {
+        "eventId": "POS_attack_transition_mun_1",
+        "event_type": "player_positioning",
+        "sub_type": "possession_recovery",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:38:40.000Z",
+        "minute": 38,
+        "team": "Manchester United",
+        "recovery_positions": {
+            "casemiro": {"x": 42, "y": 55, "recovery_type": "intercept", "immediate_action": "forward_pass"},
+            "fernandes_b": {"x": 58, "y": 48, "recovery_type": "press_win", "immediate_action": "through_ball"},
+            "rashford_m": {"x": 85, "y": 72, "recovery_type": "support_run", "immediate_action": "finish"}
+        },
+        "transition_quality": {
+            "speed_of_play": 4.1,
+            "vertical_passes": 2,
+            "directness_index": 0.82,
+            "success_probability": 0.68
+        }
+    }
+]

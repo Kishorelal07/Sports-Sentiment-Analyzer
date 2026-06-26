@@ -1,0 +1,1402 @@
+[
+  {
+    "eventId": "BALL_1",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:00:50Z",
+    "minute": 0,
+    "possession_team": "Everton",
+    "player_id": "keane_m",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 18.1,
+      "throw_height_meters": 1.89,
+      "throw_accuracy_percentage": 77.4
+    }
+  },
+  {
+    "eventId": "BALL_2",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:03:05.192905Z",
+    "minute": 2.5032150856387094,
+    "possession_team": "Manchester United",
+    "passer_id": "martial_a",
+    "receiver_id": "rashford_m",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 29.71,
+      "speed_mps": 31.82,
+      "accuracy_percentage": 86.5,
+      "launch_angle_degrees": 11.4,
+      "spin_rpm": 98.0,
+      "ball_height_max": 2.37
+    }
+  },
+  {
+    "eventId": "BALL_2_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:03:06.108905Z",
+    "minute": 2.5032150856387094,
+    "possession_team": "Manchester United",
+    "receiver_id": "rashford_m",
+    "physics_data": {
+      "impact_force": 69.6,
+      "control_quality": 0.93,
+      "first_touch_distance": 1.47
+    }
+  },
+  {
+    "eventId": "BALL_3",
+    "event_type": "ball_physics",
+    "sub_type": "clearance",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:04:48.196429Z",
+    "minute": 4.08660715473086,
+    "possession_team": "Everton",
+    "clearer_id": "rondon_s",
+    "clearance_type": "header",
+    "physics_data": {
+      "clearance_distance_meters": 22.04,
+      "clearance_height_meters": 15.23,
+      "clearance_angle_degrees": 34.5
+    }
+  },
+  {
+    "eventId": "BALL_4",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:05:27.830188Z",
+    "minute": 4.813836473880476,
+    "possession_team": "Manchester United",
+    "passer_id": "casemiro",
+    "receiver_id": "sancho_j",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 11.27,
+      "speed_mps": 15.52,
+      "accuracy_percentage": 81.2,
+      "launch_angle_degrees": 8.6,
+      "spin_rpm": -89.0,
+      "ball_height_max": 0.53
+    }
+  },
+  {
+    "eventId": "BALL_4_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:05:29.201188Z",
+    "minute": 4.813836473880476,
+    "possession_team": "Manchester United",
+    "receiver_id": "sancho_j",
+    "physics_data": {
+      "impact_force": 138.9,
+      "control_quality": 0.82,
+      "first_touch_distance": 0.71
+    }
+  },
+  {
+    "eventId": "BALL_5",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:06:23.714357Z",
+    "minute": 5.9119059551305835,
+    "tackler_team": "Everton",
+    "tackler_id": "doucour\u00e9_a",
+    "tackled_player_id": "ronaldo_c",
+    "tackle_success": false,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 151.9,
+      "ball_displacement_meters": 3.16,
+      "contact_angle_degrees": 48.0,
+      "tackle_type": "shoulder_charge"
+    }
+  },
+  {
+    "eventId": "BALL_6",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:07:08.768958Z",
+    "minute": 6.696149299417997,
+    "possession_team": "Everton",
+    "passer_id": "davies_t",
+    "receiver_id": "rondon_s",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 15.02,
+      "speed_mps": 33.04,
+      "accuracy_percentage": 75.5,
+      "launch_angle_degrees": 10.6,
+      "spin_rpm": 159.0,
+      "ball_height_max": 1.0
+    }
+  },
+  {
+    "eventId": "BALL_6_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:07:09.367958Z",
+    "minute": 6.696149299417997,
+    "possession_team": "Everton",
+    "receiver_id": "rondon_s",
+    "physics_data": {
+      "impact_force": 129.7,
+      "control_quality": 0.84,
+      "first_touch_distance": 1.89
+    }
+  },
+  {
+    "eventId": "BALL_7",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:08:07.694339Z",
+    "minute": 7.22823899087157,
+    "possession_team": "Everton",
+    "passer_id": "digne_l",
+    "receiver_id": "calvert_lewin_d",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 27.11,
+      "speed_mps": 18.9,
+      "accuracy_percentage": 91.0,
+      "launch_angle_degrees": 13.7,
+      "spin_rpm": -378.0,
+      "ball_height_max": 0.92
+    }
+  },
+  {
+    "eventId": "BALL_7_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:08:08.845339Z",
+    "minute": 7.22823899087157,
+    "possession_team": "Everton",
+    "receiver_id": "calvert_lewin_d",
+    "physics_data": {
+      "impact_force": 175.0,
+      "control_quality": 0.9,
+      "first_touch_distance": 0.1
+    }
+  },
+  {
+    "eventId": "BALL_8",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:10:39.794576Z",
+    "minute": 9.979909597940484,
+    "possession_team": "Manchester United",
+    "passer_id": "ronaldo_c",
+    "receiver_id": "casemiro",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 29.69,
+      "speed_mps": 28.32,
+      "accuracy_percentage": 82.9,
+      "launch_angle_degrees": 7.4,
+      "spin_rpm": -115.0,
+      "ball_height_max": 1.0
+    }
+  },
+  {
+    "eventId": "BALL_8_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:10:40.939576Z",
+    "minute": 9.979909597940484,
+    "possession_team": "Manchester United",
+    "receiver_id": "casemiro",
+    "physics_data": {
+      "impact_force": 177.5,
+      "control_quality": 0.96,
+      "first_touch_distance": 0.46
+    }
+  },
+  {
+    "eventId": "BALL_9",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:11:07.897336Z",
+    "minute": 10.514955592409455,
+    "possession_team": "Manchester United",
+    "passer_id": "varane_r",
+    "receiver_id": "sancho_j",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 38.01,
+      "speed_mps": 34.54,
+      "accuracy_percentage": 80.6,
+      "launch_angle_degrees": 13.4,
+      "spin_rpm": 372.0,
+      "ball_height_max": 2.52
+    }
+  },
+  {
+    "eventId": "BALL_9_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:11:08.993336Z",
+    "minute": 10.514955592409455,
+    "possession_team": "Manchester United",
+    "receiver_id": "sancho_j",
+    "physics_data": {
+      "impact_force": 114.7,
+      "control_quality": 0.83,
+      "first_touch_distance": 1.94
+    }
+  },
+  {
+    "eventId": "BALL_10",
+    "event_type": "ball_physics",
+    "sub_type": "save",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:13:41.917413Z",
+    "minute": 13.081956886963575,
+    "goalkeeper_id": "onana_a",
+    "shooter_id": "rondon_s",
+    "physics_data": {
+      "dive_distance_meters": 2.38,
+      "save_type": "two_handed",
+      "reaction_time_ms": 425,
+      "save_force": 115.9
+    }
+  },
+  {
+    "eventId": "BALL_11",
+    "event_type": "ball_physics",
+    "sub_type": "shot",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:16:37.710549Z",
+    "minute": 16.02850914965854,
+    "possession_team": "Everton",
+    "shooter_id": "rondon_s",
+    "goalkeeper_id": "pickford_j",
+    "shot_type": "header",
+    "goal_scored": true,
+    "physics_data": {
+      "distance_to_goal": 17.95,
+      "shot_speed_mps": 44.48,
+      "launch_angle_degrees": 10.1,
+      "spin_rpm": 429.0,
+      "shot_accuracy": 45.4,
+      "ball_trajectory": "linear"
+    }
+  },
+  {
+    "eventId": "BALL_11_goal",
+    "event_type": "ball_physics",
+    "sub_type": "goal_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:16:37.910549Z",
+    "minute": 16.02850914965854,
+    "physics_data": {
+      "net_penetration_force": 223.7,
+      "goal_location": "bottom_right"
+    }
+  },
+  {
+    "eventId": "BALL_12",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:18:23.922772Z",
+    "minute": 17.782046207026426,
+    "possession_team": "Manchester United",
+    "player_id": "onana_a",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 18.21,
+      "throw_height_meters": 1.1,
+      "throw_accuracy_percentage": 78.2
+    }
+  },
+  {
+    "eventId": "BALL_13",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:20:15.424271Z",
+    "minute": 20.023737851033562,
+    "possession_team": "Everton",
+    "passer_id": "tarkowski_j",
+    "receiver_id": "rondon_s",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 38.33,
+      "speed_mps": 25.43,
+      "accuracy_percentage": 77.1,
+      "launch_angle_degrees": 0.3,
+      "spin_rpm": 436.0,
+      "ball_height_max": 2.78
+    }
+  },
+  {
+    "eventId": "BALL_13_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:20:15.980271Z",
+    "minute": 20.023737851033562,
+    "possession_team": "Everton",
+    "receiver_id": "rondon_s",
+    "physics_data": {
+      "impact_force": 73.4,
+      "control_quality": 0.93,
+      "first_touch_distance": 0.35
+    }
+  },
+  {
+    "eventId": "BALL_14",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:21:34.195382Z",
+    "minute": 21.21992304138363,
+    "possession_team": "Everton",
+    "passer_id": "pickford_j",
+    "receiver_id": "doucour\u00e9_a",
+    "pass_success": false,
+    "physics_data": {
+      "distance_meters": 35.49,
+      "speed_mps": 26.25,
+      "accuracy_percentage": 72.1,
+      "launch_angle_degrees": 1.4,
+      "spin_rpm": 270.0,
+      "ball_height_max": 1.62
+    }
+  },
+  {
+    "eventId": "BALL_15",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:23:18.905814Z",
+    "minute": 22.748430236408772,
+    "possession_team": "Everton",
+    "player_id": "coleman_s",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 17.03,
+      "throw_height_meters": 1.81,
+      "throw_accuracy_percentage": 86.9
+    }
+  },
+  {
+    "eventId": "BALL_16",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:24:25.637571Z",
+    "minute": 23.64395951003335,
+    "possession_team": "Everton",
+    "passer_id": "pickford_j",
+    "receiver_id": "iwobi_a",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 39.87,
+      "speed_mps": 30.27,
+      "accuracy_percentage": 92.7,
+      "launch_angle_degrees": 12.1,
+      "spin_rpm": 350.0,
+      "ball_height_max": 1.04
+    }
+  },
+  {
+    "eventId": "BALL_16_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:24:27.017571Z",
+    "minute": 23.64395951003335,
+    "possession_team": "Everton",
+    "receiver_id": "iwobi_a",
+    "physics_data": {
+      "impact_force": 194.0,
+      "control_quality": 0.91,
+      "first_touch_distance": 0.56
+    }
+  },
+  {
+    "eventId": "BALL_17",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:26:09.783068Z",
+    "minute": 25.313051136319473,
+    "possession_team": "Manchester United",
+    "passer_id": "fernandes_b",
+    "receiver_id": "sancho_j",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 38.38,
+      "speed_mps": 15.41,
+      "accuracy_percentage": 93.4,
+      "launch_angle_degrees": 6.2,
+      "spin_rpm": 490.0,
+      "ball_height_max": 0.59
+    }
+  },
+  {
+    "eventId": "BALL_17_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:26:10.789068Z",
+    "minute": 25.313051136319473,
+    "possession_team": "Manchester United",
+    "receiver_id": "sancho_j",
+    "physics_data": {
+      "impact_force": 156.2,
+      "control_quality": 0.98,
+      "first_touch_distance": 0.72
+    }
+  },
+  {
+    "eventId": "BALL_18",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:28:02.554169Z",
+    "minute": 27.059236142494385,
+    "possession_team": "Manchester United",
+    "player_id": "dalot_d",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 24.64,
+      "throw_height_meters": 1.34,
+      "throw_accuracy_percentage": 94.0
+    }
+  },
+  {
+    "eventId": "BALL_19",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:29:46.872374Z",
+    "minute": 28.86453956235101,
+    "possession_team": "Everton",
+    "player_id": "calvert_lewin_d",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 18.69,
+      "throw_height_meters": 0.72,
+      "throw_accuracy_percentage": 74.3
+    }
+  },
+  {
+    "eventId": "BALL_20",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:32:03.531622Z",
+    "minute": 31.325527026214782,
+    "possession_team": "Manchester United",
+    "passer_id": "rashford_m",
+    "receiver_id": "ronaldo_c",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 9.31,
+      "speed_mps": 23.97,
+      "accuracy_percentage": 88.6,
+      "launch_angle_degrees": 11.8,
+      "spin_rpm": -290.0,
+      "ball_height_max": 0.61
+    }
+  },
+  {
+    "eventId": "BALL_20_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:32:04.287622Z",
+    "minute": 31.325527026214782,
+    "possession_team": "Manchester United",
+    "receiver_id": "ronaldo_c",
+    "physics_data": {
+      "impact_force": 52.4,
+      "control_quality": 0.89,
+      "first_touch_distance": 1.6
+    }
+  },
+  {
+    "eventId": "BALL_21",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:33:57.145437Z",
+    "minute": 33.83575729075151,
+    "possession_team": "Everton",
+    "passer_id": "pickford_j",
+    "receiver_id": "digne_l",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 20.03,
+      "speed_mps": 19.92,
+      "accuracy_percentage": 80.7,
+      "launch_angle_degrees": 3.6,
+      "spin_rpm": -40.0,
+      "ball_height_max": 2.08
+    }
+  },
+  {
+    "eventId": "BALL_21_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:33:57.842437Z",
+    "minute": 33.83575729075151,
+    "possession_team": "Everton",
+    "receiver_id": "digne_l",
+    "physics_data": {
+      "impact_force": 172.7,
+      "control_quality": 0.9,
+      "first_touch_distance": 1.63
+    }
+  },
+  {
+    "eventId": "BALL_22",
+    "event_type": "ball_physics",
+    "sub_type": "shot",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:37:37.825495Z",
+    "minute": 36.71375825294384,
+    "possession_team": "Manchester United",
+    "shooter_id": "martinez_l",
+    "goalkeeper_id": "onana_a",
+    "shot_type": "header",
+    "goal_scored": true,
+    "physics_data": {
+      "distance_to_goal": 14.32,
+      "shot_speed_mps": 41.57,
+      "launch_angle_degrees": 25.0,
+      "spin_rpm": -647.0,
+      "shot_accuracy": 55.6,
+      "ball_trajectory": "linear"
+    }
+  },
+  {
+    "eventId": "BALL_22_goal",
+    "event_type": "ball_physics",
+    "sub_type": "goal_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:37:38.025495Z",
+    "minute": 36.71375825294384,
+    "physics_data": {
+      "net_penetration_force": 148.6,
+      "goal_location": "top_right"
+    }
+  },
+  {
+    "eventId": "BALL_23",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:37:43.175922Z",
+    "minute": 37.66959869821256,
+    "tackler_team": "Manchester United",
+    "tackler_id": "shaw_l",
+    "tackled_player_id": "rondon_s",
+    "tackle_success": false,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 374.7,
+      "ball_displacement_meters": 1.95,
+      "contact_angle_degrees": 79.6,
+      "tackle_type": "shoulder_charge"
+    }
+  },
+  {
+    "eventId": "BALL_24",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:39:44.916982Z",
+    "minute": 39.515283040562075,
+    "possession_team": "Manchester United",
+    "passer_id": "dalot_d",
+    "receiver_id": "martinez_l",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 11.17,
+      "speed_mps": 23.4,
+      "accuracy_percentage": 99.6,
+      "launch_angle_degrees": 10.5,
+      "spin_rpm": -361.0,
+      "ball_height_max": 2.35
+    }
+  },
+  {
+    "eventId": "BALL_24_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:39:46.249982Z",
+    "minute": 39.515283040562075,
+    "possession_team": "Manchester United",
+    "receiver_id": "martinez_l",
+    "physics_data": {
+      "impact_force": 179.5,
+      "control_quality": 0.81,
+      "first_touch_distance": 0.86
+    }
+  },
+  {
+    "eventId": "BALL_25",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:42:37.383928Z",
+    "minute": 42.3063988018806,
+    "tackler_team": "Everton",
+    "tackler_id": "rondon_s",
+    "tackled_player_id": "martinez_l",
+    "tackle_success": false,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 145.5,
+      "ball_displacement_meters": 3.32,
+      "contact_angle_degrees": 64.7,
+      "tackle_type": "sliding"
+    }
+  },
+  {
+    "eventId": "BALL_26",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:43:59.719923Z",
+    "minute": 43.2453320417359,
+    "tackler_team": "Everton",
+    "tackler_id": "calvert_lewin_d",
+    "tackled_player_id": "varane_r",
+    "tackle_success": true,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 319.0,
+      "ball_displacement_meters": 1.81,
+      "contact_angle_degrees": 111.6,
+      "tackle_type": "sliding"
+    }
+  },
+  {
+    "eventId": "BALL_27",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:45:08.628431Z",
+    "minute": 45.09380718736804,
+    "possession_team": "Everton",
+    "passer_id": "keane_m",
+    "receiver_id": "gray_d",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 38.42,
+      "speed_mps": 31.59,
+      "accuracy_percentage": 76.9,
+      "launch_angle_degrees": 8.7,
+      "spin_rpm": 9.0,
+      "ball_height_max": 1.83
+    }
+  },
+  {
+    "eventId": "BALL_27_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:45:09.702431Z",
+    "minute": 45.09380718736804,
+    "possession_team": "Everton",
+    "receiver_id": "gray_d",
+    "physics_data": {
+      "impact_force": 68.0,
+      "control_quality": 0.82,
+      "first_touch_distance": 0.22
+    }
+  },
+  {
+    "eventId": "BALL_28",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:48:06.225908Z",
+    "minute": 47.50376513139683,
+    "possession_team": "Everton",
+    "passer_id": "keane_m",
+    "receiver_id": "pickford_j",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 21.14,
+      "speed_mps": 33.58,
+      "accuracy_percentage": 99.8,
+      "launch_angle_degrees": 0.1,
+      "spin_rpm": -369.0,
+      "ball_height_max": 2.85
+    }
+  },
+  {
+    "eventId": "BALL_28_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:48:07.347908Z",
+    "minute": 47.50376513139683,
+    "possession_team": "Everton",
+    "receiver_id": "pickford_j",
+    "physics_data": {
+      "impact_force": 173.6,
+      "control_quality": 0.9,
+      "first_touch_distance": 1.96
+    }
+  },
+  {
+    "eventId": "BALL_29",
+    "event_type": "ball_physics",
+    "sub_type": "clearance",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:50:10.953872Z",
+    "minute": 49.48256452663484,
+    "possession_team": "Everton",
+    "clearer_id": "gray_d",
+    "clearance_type": "foot_clearance",
+    "physics_data": {
+      "clearance_distance_meters": 30.31,
+      "clearance_height_meters": 18.09,
+      "clearance_angle_degrees": 34.5
+    }
+  },
+  {
+    "eventId": "BALL_30",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:51:29.574000Z",
+    "minute": 50.976233326901976,
+    "possession_team": "Manchester United",
+    "passer_id": "fernandes_b",
+    "receiver_id": "onana_a",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 13.56,
+      "speed_mps": 33.39,
+      "accuracy_percentage": 95.0,
+      "launch_angle_degrees": 12.0,
+      "spin_rpm": 349.0,
+      "ball_height_max": 2.42
+    }
+  },
+  {
+    "eventId": "BALL_30_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:51:30.298000Z",
+    "minute": 50.976233326901976,
+    "possession_team": "Manchester United",
+    "receiver_id": "onana_a",
+    "physics_data": {
+      "impact_force": 133.2,
+      "control_quality": 0.86,
+      "first_touch_distance": 0.56
+    }
+  },
+  {
+    "eventId": "BALL_31",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:53:30.592451Z",
+    "minute": 52.87654085536,
+    "tackler_team": "Everton",
+    "tackler_id": "digne_l",
+    "tackled_player_id": "onana_a",
+    "tackle_success": true,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 335.0,
+      "ball_displacement_meters": 3.19,
+      "contact_angle_degrees": 133.0,
+      "tackle_type": "shoulder_charge"
+    }
+  },
+  {
+    "eventId": "BALL_32",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:56:07.023845Z",
+    "minute": 55.71706409132116,
+    "possession_team": "Manchester United",
+    "passer_id": "shaw_l",
+    "receiver_id": "rashford_m",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 20.98,
+      "speed_mps": 15.72,
+      "accuracy_percentage": 81.2,
+      "launch_angle_degrees": 6.4,
+      "spin_rpm": 149.0,
+      "ball_height_max": 0.8
+    }
+  },
+  {
+    "eventId": "BALL_32_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:56:08.422845Z",
+    "minute": 55.71706409132116,
+    "possession_team": "Manchester United",
+    "receiver_id": "rashford_m",
+    "physics_data": {
+      "impact_force": 109.5,
+      "control_quality": 0.98,
+      "first_touch_distance": 0.42
+    }
+  },
+  {
+    "eventId": "BALL_33",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:57:51.774921Z",
+    "minute": 57.829582019428074,
+    "possession_team": "Manchester United",
+    "passer_id": "shaw_l",
+    "receiver_id": "martinez_l",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 22.2,
+      "speed_mps": 18.87,
+      "accuracy_percentage": 98.1,
+      "launch_angle_degrees": 11.3,
+      "spin_rpm": -9.0,
+      "ball_height_max": 1.14
+    }
+  },
+  {
+    "eventId": "BALL_33_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:57:52.733921Z",
+    "minute": 57.829582019428074,
+    "possession_team": "Manchester United",
+    "receiver_id": "martinez_l",
+    "physics_data": {
+      "impact_force": 167.7,
+      "control_quality": 0.88,
+      "first_touch_distance": 1.84
+    }
+  },
+  {
+    "eventId": "BALL_34",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:58:49.951083Z",
+    "minute": 58.3991847131947,
+    "possession_team": "Everton",
+    "player_id": "keane_m",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 16.32,
+      "throw_height_meters": 2.03,
+      "throw_accuracy_percentage": 89.0
+    }
+  },
+  {
+    "eventId": "BALL_35",
+    "event_type": "ball_physics",
+    "sub_type": "clearance",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T20:59:50.071508Z",
+    "minute": 59.16785846597949,
+    "possession_team": "Manchester United",
+    "clearer_id": "dalot_d",
+    "clearance_type": "foot_clearance",
+    "physics_data": {
+      "clearance_distance_meters": 16.06,
+      "clearance_height_meters": 13.14,
+      "clearance_angle_degrees": 38.5
+    }
+  },
+  {
+    "eventId": "BALL_36",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:01:26.747084Z",
+    "minute": 61.02911806143297,
+    "tackler_team": "Manchester United",
+    "tackler_id": "varane_r",
+    "tackled_player_id": "digne_l",
+    "tackle_success": false,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 207.8,
+      "ball_displacement_meters": 4.81,
+      "contact_angle_degrees": 113.9,
+      "tackle_type": "sliding"
+    }
+  },
+  {
+    "eventId": "BALL_37",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:03:42.940623Z",
+    "minute": 62.865677044622664,
+    "possession_team": "Everton",
+    "player_id": "digne_l",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 23.46,
+      "throw_height_meters": 1.41,
+      "throw_accuracy_percentage": 73.6
+    }
+  },
+  {
+    "eventId": "BALL_38",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:05:19.062033Z",
+    "minute": 65.25103387506664,
+    "possession_team": "Manchester United",
+    "player_id": "sancho_j",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 19.06,
+      "throw_height_meters": 2.43,
+      "throw_accuracy_percentage": 76.2
+    }
+  },
+  {
+    "eventId": "BALL_39",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:08:30.580638Z",
+    "minute": 68.0096773078186,
+    "possession_team": "Everton",
+    "passer_id": "doucour\u00e9_a",
+    "receiver_id": "calvert_lewin_d",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 13.9,
+      "speed_mps": 18.98,
+      "accuracy_percentage": 93.3,
+      "launch_angle_degrees": 6.2,
+      "spin_rpm": -474.0,
+      "ball_height_max": 0.67
+    }
+  },
+  {
+    "eventId": "BALL_39_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:08:31.378638Z",
+    "minute": 68.0096773078186,
+    "possession_team": "Everton",
+    "receiver_id": "calvert_lewin_d",
+    "physics_data": {
+      "impact_force": 129.9,
+      "control_quality": 0.85,
+      "first_touch_distance": 1.32
+    }
+  },
+  {
+    "eventId": "BALL_40",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:09:58.485599Z",
+    "minute": 69.22475998454308,
+    "possession_team": "Everton",
+    "passer_id": "davies_t",
+    "receiver_id": "coleman_s",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 34.44,
+      "speed_mps": 17.81,
+      "accuracy_percentage": 77.0,
+      "launch_angle_degrees": 3.8,
+      "spin_rpm": -118.0,
+      "ball_height_max": 2.51
+    }
+  },
+  {
+    "eventId": "BALL_40_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:09:59.616599Z",
+    "minute": 69.22475998454308,
+    "possession_team": "Everton",
+    "receiver_id": "coleman_s",
+    "physics_data": {
+      "impact_force": 199.5,
+      "control_quality": 0.83,
+      "first_touch_distance": 1.14
+    }
+  },
+  {
+    "eventId": "BALL_41",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:11:59.631940Z",
+    "minute": 71.89386567280155,
+    "possession_team": "Everton",
+    "player_id": "coleman_s",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 17.92,
+      "throw_height_meters": 1.09,
+      "throw_accuracy_percentage": 83.0
+    }
+  },
+  {
+    "eventId": "BALL_42",
+    "event_type": "ball_physics",
+    "sub_type": "corner",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:13:35.146964Z",
+    "minute": 73.06911605898567,
+    "possession_team": "Manchester United",
+    "player_id": "onana_a",
+    "set_piece_type": "corner",
+    "physics_data": {
+      "throw_distance_meters": 14.47,
+      "throw_height_meters": 0.98,
+      "throw_accuracy_percentage": 79.7
+    }
+  },
+  {
+    "eventId": "BALL_43",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:14:26.314939Z",
+    "minute": 73.63858232403737,
+    "possession_team": "Everton",
+    "player_id": "rondon_s",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 17.84,
+      "throw_height_meters": 1.25,
+      "throw_accuracy_percentage": 76.9
+    }
+  },
+  {
+    "eventId": "BALL_44",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:14:20.104733Z",
+    "minute": 74.1684122103486,
+    "possession_team": "Manchester United",
+    "player_id": "dalot_d",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 21.67,
+      "throw_height_meters": 0.67,
+      "throw_accuracy_percentage": 87.1
+    }
+  },
+  {
+    "eventId": "BALL_45",
+    "event_type": "ball_physics",
+    "sub_type": "free_kick",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:15:36.495297Z",
+    "minute": 74.95825495800413,
+    "possession_team": "Manchester United",
+    "player_id": "rashford_m",
+    "set_piece_type": "free_kick",
+    "physics_data": {
+      "throw_distance_meters": 13.18,
+      "throw_height_meters": 1.34,
+      "throw_accuracy_percentage": 82.2
+    }
+  },
+  {
+    "eventId": "BALL_46",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:16:17.271310Z",
+    "minute": 76.28785516253136,
+    "possession_team": "Manchester United",
+    "passer_id": "casemiro",
+    "receiver_id": "dalot_d",
+    "pass_success": false,
+    "physics_data": {
+      "distance_meters": 8.31,
+      "speed_mps": 34.71,
+      "accuracy_percentage": 73.3,
+      "launch_angle_degrees": 13.4,
+      "spin_rpm": -71.0,
+      "ball_height_max": 0.72
+    }
+  },
+  {
+    "eventId": "BALL_47",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:18:26.432706Z",
+    "minute": 78.07387843651198,
+    "possession_team": "Everton",
+    "player_id": "calvert_lewin_d",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 12.83,
+      "throw_height_meters": 1.76,
+      "throw_accuracy_percentage": 82.6
+    }
+  },
+  {
+    "eventId": "BALL_48",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:20:31.335515Z",
+    "minute": 79.7055919191812,
+    "possession_team": "Everton",
+    "passer_id": "keane_m",
+    "receiver_id": "davies_t",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 22.75,
+      "speed_mps": 30.33,
+      "accuracy_percentage": 99.0,
+      "launch_angle_degrees": 5.4,
+      "spin_rpm": -315.0,
+      "ball_height_max": 1.01
+    }
+  },
+  {
+    "eventId": "BALL_48_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:20:32.147515Z",
+    "minute": 79.7055919191812,
+    "possession_team": "Everton",
+    "receiver_id": "davies_t",
+    "physics_data": {
+      "impact_force": 75.9,
+      "control_quality": 0.9,
+      "first_touch_distance": 1.2
+    }
+  },
+  {
+    "eventId": "BALL_49",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:21:11.304070Z",
+    "minute": 80.92173450812254,
+    "possession_team": "Manchester United",
+    "passer_id": "rashford_m",
+    "receiver_id": "dalot_d",
+    "pass_success": false,
+    "physics_data": {
+      "distance_meters": 12.51,
+      "speed_mps": 20.85,
+      "accuracy_percentage": 72.4,
+      "launch_angle_degrees": 9.3,
+      "spin_rpm": -451.0,
+      "ball_height_max": 1.27
+    }
+  },
+  {
+    "eventId": "BALL_50",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:21:40.860204Z",
+    "minute": 81.61433672964458,
+    "possession_team": "Manchester United",
+    "passer_id": "onana_a",
+    "receiver_id": "varane_r",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 30.61,
+      "speed_mps": 17.4,
+      "accuracy_percentage": 99.6,
+      "launch_angle_degrees": 2.2,
+      "spin_rpm": -275.0,
+      "ball_height_max": 1.17
+    }
+  },
+  {
+    "eventId": "BALL_50_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:21:41.805204Z",
+    "minute": 81.61433672964458,
+    "possession_team": "Manchester United",
+    "receiver_id": "varane_r",
+    "physics_data": {
+      "impact_force": 178.6,
+      "control_quality": 0.94,
+      "first_touch_distance": 0.42
+    }
+  },
+  {
+    "eventId": "BALL_51",
+    "event_type": "ball_physics",
+    "sub_type": "save",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:25:17.404987Z",
+    "minute": 84.45674978814593,
+    "goalkeeper_id": "pickford_j",
+    "shooter_id": "sancho_j",
+    "physics_data": {
+      "dive_distance_meters": 3.28,
+      "save_type": "one_handed",
+      "reaction_time_ms": 412,
+      "save_force": 136.8
+    }
+  },
+  {
+    "eventId": "BALL_52",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:27:15.385444Z",
+    "minute": 86.35642406830122,
+    "tackler_team": "Manchester United",
+    "tackler_id": "sancho_j",
+    "tackled_player_id": "davies_t",
+    "tackle_success": false,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 168.7,
+      "ball_displacement_meters": 2.51,
+      "contact_angle_degrees": 117.3,
+      "tackle_type": "standing"
+    }
+  },
+  {
+    "eventId": "BALL_53",
+    "event_type": "ball_physics",
+    "sub_type": "corner",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:27:45.390721Z",
+    "minute": 87.50651202112986,
+    "possession_team": "Manchester United",
+    "player_id": "sancho_j",
+    "set_piece_type": "corner",
+    "physics_data": {
+      "throw_distance_meters": 15.83,
+      "throw_height_meters": 0.6,
+      "throw_accuracy_percentage": 81.0
+    }
+  },
+  {
+    "eventId": "BALL_54",
+    "event_type": "ball_physics",
+    "sub_type": "throw_in",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:28:07.659783Z",
+    "minute": 88.01099638917077,
+    "possession_team": "Manchester United",
+    "player_id": "sancho_j",
+    "set_piece_type": "throw_in",
+    "physics_data": {
+      "throw_distance_meters": 12.75,
+      "throw_height_meters": 0.64,
+      "throw_accuracy_percentage": 72.0
+    }
+  },
+  {
+    "eventId": "BALL_55",
+    "event_type": "ball_physics",
+    "sub_type": "tackle",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:30:41.366650Z",
+    "minute": 90.22277750126321,
+    "tackler_team": "Everton",
+    "tackler_id": "rondon_s",
+    "tackled_player_id": "fernandes_b",
+    "tackle_success": true,
+    "clean_tackle": true,
+    "physics_data": {
+      "tackle_force": 346.5,
+      "ball_displacement_meters": 2.42,
+      "contact_angle_degrees": 102.2,
+      "tackle_type": "standing"
+    }
+  },
+  {
+    "eventId": "BALL_56",
+    "event_type": "ball_physics",
+    "sub_type": "corner",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:31:38.588392Z",
+    "minute": 91.05980652650217,
+    "possession_team": "Everton",
+    "player_id": "pickford_j",
+    "set_piece_type": "corner",
+    "physics_data": {
+      "throw_distance_meters": 18.02,
+      "throw_height_meters": 1.9,
+      "throw_accuracy_percentage": 92.8
+    }
+  },
+  {
+    "eventId": "BALL_57",
+    "event_type": "ball_physics",
+    "sub_type": "pass",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:34:03.246204Z",
+    "minute": 93.50410340290196,
+    "possession_team": "Everton",
+    "passer_id": "coleman_s",
+    "receiver_id": "doucour\u00e9_a",
+    "pass_success": true,
+    "physics_data": {
+      "distance_meters": 18.76,
+      "speed_mps": 23.06,
+      "accuracy_percentage": 85.9,
+      "launch_angle_degrees": 10.5,
+      "spin_rpm": 146.0,
+      "ball_height_max": 2.65
+    }
+  },
+  {
+    "eventId": "BALL_57_impact",
+    "event_type": "ball_physics",
+    "sub_type": "pass_impact",
+    "match_id": "muf-eve-pl-2025-11-24",
+    "timestamp": "2025-11-24T21:34:04.335204Z",
+    "minute": 93.50410340290196,
+    "possession_team": "Everton",
+    "receiver_id": "doucour\u00e9_a",
+    "physics_data": {
+      "impact_force": 65.0,
+      "control_quality": 0.87,
+      "first_touch_distance": 1.52
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "eventId": "CROWD_1",
+        "event_type": "crowd_reaction",
+        "sub_type": "kickoff_atmosphere",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:00:00.000Z",
+        "minute": 0,
+        "crowd_metrics": {
+            "noise_level_db": 85,
+            "attendance_percentage": 95,
+            "chant_intensity": 0.8,
+            "home_supporters_percentage": 75,
+            "away_supporters_percentage": 25
+        },
+        "dominant_reactions": {
+            "primary_chant": "Glory Glory Man United",
+            "atmosphere_type": "excited",
+            "fan_engagement": 0.85
+        }
+    },
+    {
+        "eventId": "CROWD_2",
+        "event_type": "crowd_reaction",
+        "sub_type": "goal_celebration",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:22:55.500Z",
+        "minute": 22,
+        "trigger_event": "goal_scored",
+        "crowd_metrics": {
+            "noise_level_db": 105,
+            "chant_intensity": 0.98,
+            "celebration_duration_seconds": 25,
+            "stadium_vibration": 0.75
+        },
+        "reaction_details": {
+            "celebration_type": "massive_roar",
+            "chant_type": "victory_chants",
+            "fan_behavior": "standing_ovation",
+            "emotional_intensity": 0.95
+        }
+    },
+    {
+        "eventId": "CROWD_3",
+        "event_type": "crowd_reaction",
+        "sub_type": "near_miss_reaction",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:08:25.500Z",
+        "minute": 53,
+        "trigger_event": "brilliant_save",
+        "crowd_metrics": {
+            "noise_level_db": 92,
+            "chant_intensity": 0.7,
+            "reaction_delay_ms": 800
+        },
+        "reaction_details": {
+            "reaction_type": "collective_gasp",
+            "emotional_response": "disappointment",
+            "intensity_level": 0.75
+        }
+    },
+    {
+        "eventId": "CROWD_4",
+        "event_type": "crowd_reaction",
+        "sub_type": "card_reaction",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:38:20.500Z",
+        "minute": 83,
+        "trigger_event": "red_card",
+        "crowd_metrics": {
+            "noise_level_db": 88,
+            "chant_intensity": 0.6,
+            "booing_intensity": 0.8
+        },
+        "reaction_details": {
+            "reaction_type": "booing_and_whistles",
+            "target": "referee_decision",
+            "emotional_response": "anger",
+            "intensity_level": 0.85
+        }
+    },
+    {
+        "eventId": "CROWD_5",
+        "event_type": "crowd_reaction",
+        "sub_type": "late_goal_drama",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:44:30.500Z",
+        "minute": 89,
+        "trigger_event": "everton_goal",
+        "crowd_metrics": {
+            "noise_level_db": 78,
+            "chant_intensity": 0.4,
+            "away_fans_celebration": 0.9,
+            "home_fans_concern": 0.7
+        },
+        "reaction_details": {
+            "reaction_type": "mixed_emotions",
+            "home_reaction": "nervous_tension",
+            "away_reaction": "hopeful_celebration",
+            "intensity_level": 0.8
+        }
+    }
+]

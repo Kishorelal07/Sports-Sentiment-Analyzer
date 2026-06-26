@@ -1,0 +1,246 @@
+{
+  "info": {
+    "name": "Cricket Analytics Platform API",
+    "description": "API collection for Sports Analytics and Engagement Platform",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Matches",
+      "item": [
+        {
+          "name": "Get All Matches",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/matches",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "matches"]
+            }
+          }
+        },
+        {
+          "name": "Get Match by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/matches/eng-aus-t20-2025-11-24",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "matches", "eng-aus-t20-2025-11-24"]
+            }
+          }
+        },
+        {
+          "name": "Load Match from File",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/matches/load",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "matches", "load"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "item": [
+        {
+          "name": "Get Events for Match",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/events/match/eng-aus-t20-2025-11-24",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "events", "match", "eng-aus-t20-2025-11-24"]
+            }
+          }
+        },
+        {
+          "name": "Get Recent Events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/events/match/eng-aus-t20-2025-11-24/recent?hours=1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "events", "match", "eng-aus-t20-2025-11-24", "recent"],
+              "query": [
+                {
+                  "key": "hours",
+                  "value": "1"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sentiment",
+      "item": [
+        {
+          "name": "Get Match Sentiment",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sentiment/match/eng-aus-t20-2025-11-24",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "sentiment", "match", "eng-aus-t20-2025-11-24"]
+            }
+          }
+        },
+        {
+          "name": "Get Player Sentiment",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sentiment/player/warner_d",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "sentiment", "player", "warner_d"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Predictions",
+      "item": [
+        {
+          "name": "Get Match Prediction",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/predict/match/eng-aus-t20-2025-11-24?type=match_winner",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "predict", "match", "eng-aus-t20-2025-11-24"],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "match_winner"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get All Predictions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/predict/match/eng-aus-t20-2025-11-24/all",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "predict", "match", "eng-aus-t20-2025-11-24", "all"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "Get User",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/users/demo-user-1",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "demo-user-1"]
+            }
+          }
+        },
+        {
+          "name": "Create User",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": \"demo-user-1\",\n  \"username\": \"demo\",\n  \"email\": \"demo@example.com\",\n  \"preferences\": {\n    \"commentaryStyle\": \"technical\",\n    \"showPredictions\": true,\n    \"showSentiment\": true\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users"]
+            }
+          }
+        },
+        {
+          "name": "Get User Preferences",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/users/demo-user-1/preferences",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "demo-user-1", "preferences"]
+            }
+          }
+        },
+        {
+          "name": "Update User Preferences",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"commentaryStyle\": \"detailed\",\n  \"showPredictions\": true,\n  \"showSentiment\": true,\n  \"showBiometrics\": false,\n  \"language\": \"en\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users/demo-user-1/preferences",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "demo-user-1", "preferences"]
+            }
+          }
+        },
+        {
+          "name": "Get Personalized Feed",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/users/demo-user-1/feeds/personalized?matchId=eng-aus-t20-2025-11-24",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "demo-user-1", "feeds", "personalized"],
+              "query": [
+                {
+                  "key": "matchId",
+                  "value": "eng-aus-t20-2025-11-24"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080",
+      "type": "string"
+    }
+  ]
+}
+

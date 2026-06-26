@@ -1,0 +1,114 @@
+{
+    "match_id": "muf-eve-pl-2025-11-24",
+    "series": "Premier League 2025/26",
+    "match_number": 12,
+    "format": "Premier League",
+    "date": "2025-11-24",
+    "time": "20:00 GMT",
+    "venue": "Old Trafford",
+    "city": "Manchester",
+    "country": "England",
+    "attendance": 74123,
+    "referee": {
+        "name": "Anthony Taylor",
+        "assistants": ["Gary Beswick", "Adam Nunn"],
+        "fourth_official": "Craig Pawson",
+        "VAR": "Stuart Attwell"
+    },
+    "toss": null,
+    "teams": {
+        "home_team": {
+            "name": "Manchester United",
+            "short_name": "MUN",
+            "manager": "Erik ten Hag",
+            "formation": "4-2-3-1",
+            "players": [
+                {"name": "André Onana", "id": "onana_a", "position": "GK", "number": 24},
+                {"name": "Diogo Dalot", "id": "dalot_d", "position": "RB", "number": 20},
+                {"name": "Raphaël Varane", "id": "varane_r", "position": "CB", "number": 19},
+                {"name": "Lisandro Martínez", "id": "martinez_l", "position": "CB", "number": 6},
+                {"name": "Luke Shaw", "id": "shaw_l", "position": "LB", "number": 23},
+                {"name": "Casemiro", "id": "casemiro", "position": "CDM", "number": 18},
+                {"name": "Bruno Fernandes", "id": "fernandes_b", "position": "CM", "number": 8},
+                {"name": "Marcus Rashford", "id": "rashford_m", "position": "RW", "number": 10},
+                {"name": "Jadon Sancho", "id": "sancho_j", "position": "LW", "number": 25},
+                {"name": "Cristiano Ronaldo", "id": "ronaldo_c", "position": "ST", "number": 7},
+                {"name": "Anthony Martial", "id": "martial_a", "position": "ST", "number": 9}
+            ]
+        },
+        "away_team": {
+            "name": "Everton",
+            "short_name": "EVE",
+            "manager": "Sean Dyche",
+            "formation": "4-3-3",
+            "players": [
+                {"name": "Jordan Pickford", "id": "pickford_j", "position": "GK", "number": 1},
+                {"name": "Seamus Coleman", "id": "coleman_s", "position": "RB", "number": 23},
+                {"name": "Michael Keane", "id": "keane_m", "position": "CB", "number": 5},
+                {"name": "James Tarkowski", "id": "tarkowski_j", "position": "CB", "number": 6},
+                {"name": "Lucas Digne", "id": "digne_l", "position": "LB", "number": 12},
+                {"name": "Abdoulaye Doucouré", "id": "doucouré_a", "position": "CM", "number": 16},
+                {"name": "Tom Davies", "id": "davies_t", "position": "CM", "number": 26},
+                {"name": "Alex Iwobi", "id": "iwobi_a", "position": "CM", "number": 17},
+                {"name": "Demarai Gray", "id": "gray_d", "position": "RW", "number": 11},
+                {"name": "Dominic Calvert-Lewin", "id": "calvert_lewin_d", "position": "ST", "number": 9},
+                {"name": "Salomón Rondón", "id": "rondon_s", "position": "ST", "number": 24}
+            ]
+        }
+    },
+    "match_events": {
+        "goals": [
+            {"minute": 23, "scorer": "Bruno Fernandes", "team": "Manchester United", "assist": "Marcus Rashford"},
+            {"minute": 67, "scorer": "Cristiano Ronaldo", "team": "Manchester United", "assist": "Anthony Martial"},
+            {"minute": 89, "scorer": "Dominic Calvert-Lewin", "team": "Everton", "assist": "Demarai Gray"}
+        ],
+        "cards": [
+            {"minute": 34, "player": "Tom Davies", "team": "Everton", "type": "yellow", "reason": "foul"},
+            {"minute": 72, "player": "Lisandro Martínez", "team": "Manchester United", "type": "yellow", "reason": "dissent"},
+            {"minute": 85, "player": "Alex Iwobi", "team": "Everton", "type": "red", "reason": "second yellow"}
+        ],
+        "substitutions": [
+            {"minute": 65, "team": "Manchester United", "player_off": "Jadon Sancho", "player_on": "Anthony Martial"},
+            {"minute": 75, "team": "Everton", "player_off": "Salomón Rondón", "player_on": "Richarlison"},
+            {"minute": 82, "team": "Manchester United", "player_off": "Casemiro", "player_on": "Donny van de Beek"}
+        ]
+    },
+    "result": {
+        "home_score": 2,
+        "away_score": 1,
+        "winner": "Manchester United",
+        "status": "completed",
+        "match_stats": {
+            "possession": {"home": 58, "away": 42},
+            "shots": {"home": 15, "away": 8},
+            "shots_on_target": {"home": 7, "away": 4},
+            "corners": {"home": 8, "away": 3},
+            "fouls": {"home": 12, "away": 15},
+            "yellow_cards": {"home": 1, "away": 2},
+            "red_cards": {"home": 0, "away": 1},
+            "offsides": {"home": 3, "away": 2}
+        }
+    },
+    "data_format_version": "2.0",
+    "data_source": "hackathon_soccer_feeds_data",
+    "feed_files_available": [
+        "ball-physics-feed.json",
+        "player-stats-feed.json",
+        "player-positioning-feed.json",
+        "commentary-feed.json",
+        "scoring-feed.json",
+        "referee-decisions-feed.json",
+        "crowd-reactions-feed.json",
+        "match-statistics-feed.json",
+        "player-biometric-feed.json",
+        "equipment-sensor-feed.json"
+    ],
+    "total_feed_events": 7392,
+    "expanded_feeds": ["ball_physics", "player_stats", "commentary"],
+    "match_duration": {
+        "total_minutes": 90,
+        "added_time": 4,
+        "ball_possession_events": 1800,
+        "total_action_events": 2400
+    }
+}

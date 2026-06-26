@@ -1,0 +1,466 @@
+[
+    {
+        "eventId": "SCORE_1",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:05:30.000Z",
+        "minute": 5,
+        "team": "Manchester United",
+        "player_id": "rashford_m",
+        "player_name": "Marcus Rashford",
+        "shot_details": {
+            "shot_type": "ground_shot",
+            "body_part": "right_foot",
+            "distance_from_goal": 18.5,
+            "shot_speed_kmh": 95.2,
+            "shot_accuracy": 0.75,
+            "shot_angle_degrees": 25.3,
+            "goal_probability": 0.15,
+            "shot_quality_score": 7.2,
+            "goalkeeper_reaction_time_ms": 350,
+            "shot_trajectory": "straight"
+        },
+        "outcome": "saved",
+        "save_details": {
+            "goalkeeper_id": "pickford_j",
+            "save_type": "comfortable_catch",
+            "save_difficulty": "easy"
+        }
+    },
+    {
+        "eventId": "SCORE_2",
+        "event_type": "scoring",
+        "sub_type": "goal",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:22:55.000Z",
+        "minute": 22,
+        "team": "Manchester United",
+        "player_id": "fernandes_b",
+        "player_name": "Bruno Fernandes",
+        "goal_details": {
+            "goal_type": "curler",
+            "body_part": "right_foot",
+            "distance_from_goal": 22.1,
+            "shot_speed_kmh": 88.5,
+            "shot_accuracy": 0.94,
+            "shot_angle_degrees": 23.7,
+            "goal_probability": 0.23,
+            "shot_quality_score": 9.4,
+            "goal_location": "top_left_corner",
+            "net_penetration_force": 185.7,
+            "celebration_type": "arm_pump",
+            "assisted_by": "rashford_m"
+        },
+        "assist_details": {
+            "assist_player_id": "rashford_m",
+            "assist_player_name": "Marcus Rashford",
+            "assist_type": "key_pass",
+            "assist_distance": 15.3,
+            "assist_accuracy": 0.89
+        },
+        "match_impact": {
+            "score_change": "0-0 to 1-0",
+            "momentum_shift": 0.8,
+            "psychological_impact": "major_boost"
+        }
+    },
+    {
+        "eventId": "SCORE_3",
+        "event_type": "scoring",
+        "sub_type": "near_miss",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:28:15.000Z",
+        "minute": 28,
+        "team": "Everton",
+        "player_id": "gray_d",
+        "player_name": "Demarai Gray",
+        "shot_details": {
+            "shot_type": "volley",
+            "body_part": "left_foot",
+            "distance_from_goal": 25.3,
+            "shot_speed_kmh": 105.1,
+            "shot_accuracy": 0.65,
+            "shot_angle_degrees": 22.8,
+            "goal_probability": 0.08,
+            "shot_quality_score": 6.8,
+            "goalkeeper_reaction_time_ms": 280,
+            "shot_trajectory": "dipping"
+        },
+        "outcome": "off_target",
+        "miss_details": {
+            "miss_type": "wide_left",
+            "miss_distance_cm": 45,
+            "goalkeeper_reach_distance_cm": 120
+        }
+    },
+    {
+        "eventId": "SCORE_4",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:35:45.000Z",
+        "minute": 35,
+        "team": "Manchester United",
+        "player_id": "ronaldo_c",
+        "player_name": "Cristiano Ronaldo",
+        "shot_details": {
+            "shot_type": "header",
+            "body_part": "head",
+            "distance_from_goal": 8.2,
+            "shot_speed_kmh": 65.4,
+            "shot_accuracy": 0.82,
+            "shot_angle_degrees": 15.6,
+            "goal_probability": 0.35,
+            "shot_quality_score": 8.1,
+            "cross_type": "delivered",
+            "cross_quality": 0.78
+        },
+        "outcome": "saved",
+        "save_details": {
+            "goalkeeper_id": "pickford_j",
+            "save_type": "diving_save",
+            "save_difficulty": "difficult",
+            "save_reaction_speed_ms": 245
+        }
+    },
+    {
+        "eventId": "SCORE_5",
+        "event_type": "scoring",
+        "sub_type": "near_miss",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:42:30.000Z",
+        "minute": 42,
+        "team": "Everton",
+        "player_id": "calvert_lewin_d",
+        "player_name": "Dominic Calvert-Lewin",
+        "shot_details": {
+            "shot_type": "ground_shot",
+            "body_part": "right_foot",
+            "distance_from_goal": 12.8,
+            "shot_speed_kmh": 92.3,
+            "shot_accuracy": 0.78,
+            "shot_angle_degrees": 18.4,
+            "goal_probability": 0.42,
+            "shot_quality_score": 8.3,
+            "shot_trajectory": "straight"
+        },
+        "outcome": "blocked",
+        "block_details": {
+            "blocked_by_player_id": "varane_r",
+            "blocked_by_player_name": "Raphaël Varane",
+            "block_type": "leg_block",
+            "block_distance_from_goal": 2.1
+        }
+    },
+    {
+        "eventId": "SCORE_6",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:03:20.000Z",
+        "minute": 48,
+        "team": "Manchester United",
+        "player_id": "martial_a",
+        "player_name": "Anthony Martial",
+        "shot_details": {
+            "shot_type": "curler",
+            "body_part": "left_foot",
+            "distance_from_goal": 19.7,
+            "shot_speed_kmh": 85.6,
+            "shot_accuracy": 0.71,
+            "shot_angle_degrees": 28.9,
+            "goal_probability": 0.12,
+            "shot_quality_score": 7.5,
+            "shot_trajectory": "swerving"
+        },
+        "outcome": "off_target",
+        "miss_details": {
+            "miss_type": "over_bar",
+            "miss_distance_cm": 85,
+            "goalkeeper_reach_distance_cm": 0
+        }
+    },
+    {
+        "eventId": "SCORE_7",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:08:25.000Z",
+        "minute": 53,
+        "team": "Manchester United",
+        "player_id": "ronaldo_c",
+        "player_name": "Cristiano Ronaldo",
+        "shot_details": {
+            "shot_type": "header",
+            "body_part": "head",
+            "distance_from_goal": 6.4,
+            "shot_speed_kmh": 58.9,
+            "shot_accuracy": 0.89,
+            "shot_angle_degrees": 12.3,
+            "goal_probability": 0.67,
+            "shot_quality_score": 9.1,
+            "cross_type": "delivered",
+            "cross_quality": 0.92,
+            "jump_height_cm": 85
+        },
+        "outcome": "saved",
+        "save_details": {
+            "goalkeeper_id": "pickford_j",
+            "save_type": "reaction_save",
+            "save_difficulty": "world_class",
+            "save_reaction_speed_ms": 195,
+            "save_direction": "top_corner"
+        }
+    },
+    {
+        "eventId": "SCORE_8",
+        "event_type": "scoring",
+        "sub_type": "goal",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:12:30.000Z",
+        "minute": 57,
+        "team": "Manchester United",
+        "player_id": "ronaldo_c",
+        "player_name": "Cristiano Ronaldo",
+        "goal_details": {
+            "goal_type": "header",
+            "body_part": "head",
+            "distance_from_goal": 8.9,
+            "shot_speed_kmh": 62.1,
+            "shot_accuracy": 0.96,
+            "shot_angle_degrees": 14.2,
+            "goal_probability": 0.58,
+            "shot_quality_score": 9.2,
+            "goal_location": "bottom_right_corner",
+            "net_penetration_force": 145.3,
+            "celebration_type": "siuuu_pose",
+            "assisted_by": "martial_a"
+        },
+        "assist_details": {
+            "assist_player_id": "martial_a",
+            "assist_player_name": "Anthony Martial",
+            "assist_type": "cross",
+            "assist_distance": 22.4,
+            "assist_accuracy": 0.94,
+            "cross_type": "low_driven_cross"
+        },
+        "match_impact": {
+            "score_change": "1-0 to 2-0",
+            "momentum_shift": 0.9,
+            "psychological_impact": "game_over"
+        }
+    },
+    {
+        "eventId": "SCORE_9",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:15:40.000Z",
+        "minute": 60,
+        "team": "Everton",
+        "player_id": "iwobi_a",
+        "player_name": "Alex Iwobi",
+        "shot_details": {
+            "shot_type": "ground_shot",
+            "body_part": "right_foot",
+            "distance_from_goal": 21.6,
+            "shot_speed_kmh": 78.4,
+            "shot_accuracy": 0.69,
+            "shot_angle_degrees": 19.8,
+            "goal_probability": 0.09,
+            "shot_quality_score": 6.4,
+            "shot_trajectory": "straight"
+        },
+        "outcome": "off_target",
+        "miss_details": {
+            "miss_type": "wide_right",
+            "miss_distance_cm": 62,
+            "goalkeeper_reach_distance_cm": 0
+        }
+    },
+    {
+        "eventId": "SCORE_10",
+        "event_type": "scoring",
+        "sub_type": "near_miss",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:22:15.000Z",
+        "minute": 67,
+        "team": "Everton",
+        "player_id": "richarlison",
+        "player_name": "Richarlison",
+        "shot_details": {
+            "shot_type": "volley",
+            "body_part": "right_foot",
+            "distance_from_goal": 16.8,
+            "shot_speed_kmh": 98.7,
+            "shot_accuracy": 0.73,
+            "shot_angle_degrees": 24.1,
+            "goal_probability": 0.18,
+            "shot_quality_score": 7.8,
+            "shot_trajectory": "dipping"
+        },
+        "outcome": "saved",
+        "save_details": {
+            "goalkeeper_id": "onana_a",
+            "save_type": "diving_save",
+            "save_difficulty": "good",
+            "save_reaction_speed_ms": 320
+        }
+    },
+    {
+        "eventId": "SCORE_11",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:28:50.000Z",
+        "minute": 73,
+        "team": "Everton",
+        "player_id": "calvert_lewin_d",
+        "player_name": "Dominic Calvert-Lewin",
+        "shot_details": {
+            "shot_type": "header",
+            "body_part": "head",
+            "distance_from_goal": 9.2,
+            "shot_speed_kmh": 55.8,
+            "shot_accuracy": 0.76,
+            "shot_angle_degrees": 16.9,
+            "goal_probability": 0.31,
+            "shot_quality_score": 7.6,
+            "cross_type": "delivered",
+            "cross_quality": 0.85,
+            "jump_height_cm": 78
+        },
+        "outcome": "off_target",
+        "miss_details": {
+            "miss_type": "wide_right",
+            "miss_distance_cm": 38,
+            "goalkeeper_reach_distance_cm": 25
+        }
+    },
+    {
+        "eventId": "SCORE_12",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:35:25.000Z",
+        "minute": 80,
+        "team": "Manchester United",
+        "player_id": "rashford_m",
+        "player_name": "Marcus Rashford",
+        "shot_details": {
+            "shot_type": "ground_shot",
+            "body_part": "left_foot",
+            "distance_from_goal": 14.3,
+            "shot_speed_kmh": 88.9,
+            "shot_accuracy": 0.81,
+            "shot_angle_degrees": 21.7,
+            "goal_probability": 0.25,
+            "shot_quality_score": 8.2,
+            "shot_trajectory": "straight"
+        },
+        "outcome": "blocked",
+        "block_details": {
+            "blocked_by_player_id": "tarkowski_j",
+            "blocked_by_player_name": "James Tarkowski",
+            "block_type": "body_block",
+            "block_distance_from_goal": 3.2
+        }
+    },
+    {
+        "eventId": "SCORE_13",
+        "event_type": "scoring",
+        "sub_type": "shot_attempt",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:38:45.000Z",
+        "minute": 83,
+        "team": "Everton",
+        "player_id": "gray_d",
+        "player_name": "Demarai Gray",
+        "shot_details": {
+            "shot_type": "free_kick",
+            "body_part": "right_foot",
+            "distance_from_goal": 24.7,
+            "shot_speed_kmh": 92.3,
+            "shot_accuracy": 0.68,
+            "shot_angle_degrees": 26.4,
+            "goal_probability": 0.11,
+            "shot_quality_score": 7.1,
+            "free_kick_type": "direct_free_kick",
+            "wall_height": 2.1
+        },
+        "outcome": "off_target",
+        "miss_details": {
+            "miss_type": "over_bar",
+            "miss_distance_cm": 67,
+            "goalkeeper_reach_distance_cm": 0
+        }
+    },
+    {
+        "eventId": "SCORE_14",
+        "event_type": "scoring",
+        "sub_type": "near_miss",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:42:10.000Z",
+        "minute": 87,
+        "team": "Everton",
+        "player_id": "richarlison",
+        "player_name": "Richarlison",
+        "shot_details": {
+            "shot_type": "ground_shot",
+            "body_part": "right_foot",
+            "distance_from_goal": 22.9,
+            "shot_speed_kmh": 85.6,
+            "shot_accuracy": 0.72,
+            "shot_angle_degrees": 23.1,
+            "goal_probability": 0.14,
+            "shot_quality_score": 7.3,
+            "shot_trajectory": "swerving"
+        },
+        "outcome": "saved",
+        "save_details": {
+            "goalkeeper_id": "onana_a",
+            "save_type": "comfortable_save",
+            "save_difficulty": "medium",
+            "save_reaction_speed_ms": 400
+        }
+    },
+    {
+        "eventId": "SCORE_15",
+        "event_type": "scoring",
+        "sub_type": "goal",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:44:30.000Z",
+        "minute": 89,
+        "team": "Everton",
+        "player_id": "calvert_lewin_d",
+        "player_name": "Dominic Calvert-Lewin",
+        "goal_details": {
+            "goal_type": "header",
+            "body_part": "head",
+            "distance_from_goal": 7.8,
+            "shot_speed_kmh": 59.4,
+            "shot_accuracy": 0.91,
+            "shot_angle_degrees": 13.8,
+            "goal_probability": 0.52,
+            "shot_quality_score": 8.7,
+            "goal_location": "top_center",
+            "net_penetration_force": 132.8,
+            "celebration_type": "fist_pump",
+            "assisted_by": "gray_d"
+        },
+        "assist_details": {
+            "assist_player_id": "gray_d",
+            "assist_player_name": "Demarai Gray",
+            "assist_type": "cross",
+            "assist_distance": 28.6,
+            "assist_accuracy": 0.96,
+            "cross_type": "high_arcing_cross"
+        },
+        "match_impact": {
+            "score_change": "2-0 to 2-1",
+            "momentum_shift": 0.7,
+            "psychological_impact": "late_drama"
+        }
+    }
+]

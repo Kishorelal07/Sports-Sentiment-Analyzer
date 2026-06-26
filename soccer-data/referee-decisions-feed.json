@@ -1,0 +1,391 @@
+[
+    {
+        "eventId": "REF_1",
+        "event_type": "referee_decision",
+        "sub_type": "foul_committed",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:12:45.000Z",
+        "minute": 12,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "foul_details": {
+            "fouling_player_id": "davies_t",
+            "fouling_player_name": "Tom Davies",
+            "fouled_player_id": "fernandes_b",
+            "fouled_player_name": "Bruno Fernandes",
+            "foul_type": "tackle_from_behind",
+            "foul_severity": "medium",
+            "foul_location": {"x": 65, "y": 45},
+            "contact_intensity": "moderate",
+            "intentionality": "accidental",
+            "advantage_played": false
+        },
+        "decision": {
+            "card_given": "yellow",
+            "free_kick_awarded": true,
+            "free_kick_team": "Manchester United",
+            "free_kick_location": {"x": 68, "y": 47}
+        }
+    },
+    {
+        "eventId": "REF_2",
+        "event_type": "referee_decision",
+        "sub_type": "offside_decision",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:18:30.000Z",
+        "minute": 18,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "offside_details": {
+            "offside_player_id": "rashford_m",
+            "offside_player_name": "Marcus Rashford",
+            "offside_line_breached": true,
+            "offside_distance_cm": 45,
+            "last_defender_position": {"x": 82, "y": 52},
+            "offside_position": {"x": 84, "y": 48},
+            "VAR_check_required": false
+        },
+        "decision": {
+            "offside_given": true,
+            "goal_disallowed": false,
+            "free_kick_awarded": true,
+            "free_kick_team": "Everton"
+        }
+    },
+    {
+        "eventId": "REF_3",
+        "event_type": "referee_decision",
+        "sub_type": "yellow_card",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:34:20.000Z",
+        "minute": 34,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "card_details": {
+            "card_type": "yellow",
+            "player_id": "davies_t",
+            "player_name": "Tom Davies",
+            "team": "Everton",
+            "card_reason": "late_challenge",
+            "card_severity": "standard",
+            "first_yellow": true,
+            "caution_points": 1
+        },
+        "incident_details": {
+            "incident_type": "tackle",
+            "incident_location": {"x": 58, "y": 42},
+            "contact_type": "leg_contact",
+            "intentionality": "reckless"
+        }
+    },
+    {
+        "eventId": "REF_4",
+        "event_type": "referee_decision",
+        "sub_type": "corner_kick",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:40:55.000Z",
+        "minute": 40,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "set_piece_details": {
+            "set_piece_type": "corner_kick",
+            "awarded_team": "Manchester United",
+            "conceding_team": "Everton",
+            "reason": "ball_crossed_byline",
+            "corner_location": "left_corner",
+            "kick_location": {"x": 95, "y": 0}
+        },
+        "decision": {
+            "set_piece_awarded": true,
+            "goal_kick_alternative": false,
+            "throw_in_alternative": false
+        }
+    },
+    {
+        "eventId": "REF_5",
+        "event_type": "referee_decision",
+        "sub_type": "handball_decision",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:43:10.000Z",
+        "minute": 43,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "handball_details": {
+            "player_id": "keane_m",
+            "player_name": "Michael Keane",
+            "team": "Everton",
+            "handball_location": {"x": 25, "y": 35},
+            "handball_type": "accidental_arm_movement",
+            "intentionality": "unintentional",
+            "ball_trajectory": "towards_goal",
+            "hand_position": "natural_position",
+            "VAR_check_required": false
+        },
+        "decision": {
+            "handball_given": false,
+            "free_kick_awarded": false,
+            "play_continued": true
+        }
+    },
+    {
+        "eventId": "REF_6",
+        "event_type": "referee_decision",
+        "sub_type": "VAR_review",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:03:40.000Z",
+        "minute": 48,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "VAR_details": {
+            "VAR_official": "Stuart Attwell",
+            "review_type": "goal_disallowed",
+            "review_reason": "possible_offside",
+            "incident_minute": 47,
+            "review_duration_seconds": 35,
+            "camera_angles_used": ["side_angle", "behind_goal", "aerial_view"],
+            "technology_used": ["offside_detection_system"],
+            "VAR_decision": "goal_stands"
+        },
+        "original_decision": {
+            "initial_call": "goal_awarded",
+            "on_field_decision": "goal"
+        },
+        "final_decision": {
+            "VAR_outcome": "confirm_goal",
+            "reason": "attacker_level_with_last_defender"
+        }
+    },
+    {
+        "eventId": "REF_7",
+        "event_type": "referee_decision",
+        "sub_type": "foul_committed",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:07:25.000Z",
+        "minute": 52,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "foul_details": {
+            "fouling_player_id": "martinez_l",
+            "fouling_player_name": "Lisandro Martínez",
+            "fouled_player_id": "iwobi_a",
+            "fouled_player_name": "Alex Iwobi",
+            "foul_type": "shirt_pull",
+            "foul_severity": "light",
+            "foul_location": {"x": 42, "y": 38},
+            "contact_intensity": "light",
+            "intentionality": "accidental",
+            "advantage_played": true
+        },
+        "decision": {
+            "card_given": "none",
+            "free_kick_awarded": false,
+            "advantage_played": true
+        }
+    },
+    {
+        "eventId": "REF_8",
+        "event_type": "referee_decision",
+        "sub_type": "yellow_card",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:27:15.000Z",
+        "minute": 72,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "card_details": {
+            "card_type": "yellow",
+            "player_id": "martinez_l",
+            "player_name": "Lisandro Martínez",
+            "team": "Manchester United",
+            "card_reason": "dissent",
+            "card_severity": "standard",
+            "first_yellow": true,
+            "caution_points": 1
+        },
+        "incident_details": {
+            "incident_type": "verbal_dissent",
+            "incident_location": {"x": 45, "y": 50},
+            "contact_type": "none",
+            "intentionality": "intentional"
+        }
+    },
+    {
+        "eventId": "REF_9",
+        "event_type": "referee_decision",
+        "sub_type": "free_kick_awarded",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:31:50.000Z",
+        "minute": 76,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "foul_details": {
+            "fouling_player_id": "casemiro",
+            "fouling_player_name": "Casemiro",
+            "fouled_player_id": "doucouré_a",
+            "fouled_player_name": "Abdoulaye Doucouré",
+            "foul_type": "tripping",
+            "foul_severity": "medium",
+            "foul_location": {"x": 55, "y": 48},
+            "contact_intensity": "moderate",
+            "intentionality": "accidental",
+            "advantage_played": false
+        },
+        "decision": {
+            "card_given": "none",
+            "free_kick_awarded": true,
+            "free_kick_team": "Everton",
+            "free_kick_location": {"x": 58, "y": 46},
+            "dangerous_position": true
+        }
+    },
+    {
+        "eventId": "REF_10",
+        "event_type": "referee_decision",
+        "sub_type": "simulation_check",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:35:20.000Z",
+        "minute": 80,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "simulation_details": {
+            "player_id": "iwobi_a",
+            "player_name": "Alex Iwobi",
+            "team": "Everton",
+            "incident_location": {"x": 72, "y": 45},
+            "simulation_type": "exaggerated_fall",
+            "contact_received": false,
+            "dive_probability": 0.85,
+            "VAR_check_required": false
+        },
+        "decision": {
+            "simulation_given": false,
+            "free_kick_awarded": true,
+            "free_kick_team": "Manchester United"
+        }
+    },
+    {
+        "eventId": "REF_11",
+        "event_type": "referee_decision",
+        "sub_type": "second_yellow_card",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:38:20.000Z",
+        "minute": 83,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "card_details": {
+            "card_type": "red",
+            "player_id": "iwobi_a",
+            "player_name": "Alex Iwobi",
+            "team": "Everton",
+            "card_reason": "simulation",
+            "card_severity": "severe",
+            "first_yellow": false,
+            "previous_yellow_minute": 34,
+            "caution_points": 2,
+            "sending_off_type": "two_yellow_cards"
+        },
+        "incident_details": {
+            "incident_type": "simulation",
+            "incident_location": {"x": 68, "y": 42},
+            "contact_type": "none",
+            "intentionality": "intentional"
+        },
+        "VAR_details": {
+            "VAR_review": true,
+            "VAR_official": "Stuart Attwell",
+            "review_duration_seconds": 28,
+            "VAR_decision": "confirm_red_card",
+            "evidence_used": ["multiple_camera_angles", "player_tracking"]
+        }
+    },
+    {
+        "eventId": "REF_12",
+        "event_type": "referee_decision",
+        "sub_type": "penalty_decision",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:41:15.000Z",
+        "minute": 86,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "penalty_details": {
+            "foul_location": {"x": 12, "y": 48},
+            "penalty_area_entry": true,
+            "foul_type": "shirt_pull",
+            "fouling_player_id": "varane_r",
+            "fouling_player_name": "Raphaël Varane",
+            "fouled_player_id": "calvert_lewin_d",
+            "fouled_player_name": "Dominic Calvert-Lewin",
+            "VAR_check_required": true
+        },
+        "VAR_details": {
+            "VAR_review": true,
+            "VAR_official": "Stuart Attwell",
+            "review_duration_seconds": 42,
+            "VAR_decision": "no_penalty",
+            "reason": "minimal_contact",
+            "evidence_used": ["ultra_slow_motion", "contact_detection"]
+        },
+        "decision": {
+            "penalty_awarded": false,
+            "free_kick_awarded": true,
+            "free_kick_team": "Everton",
+            "card_given": "none"
+        }
+    },
+    {
+        "eventId": "REF_13",
+        "event_type": "referee_decision",
+        "sub_type": "goal_kick",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:45:40.000Z",
+        "minute": 90,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "set_piece_details": {
+            "set_piece_type": "goal_kick",
+            "awarded_team": "Manchester United",
+            "conceding_team": "Everton",
+            "reason": "ball_crossed_byline_from_attack",
+            "kick_location": {"x": 5, "y": 50}
+        },
+        "decision": {
+            "set_piece_awarded": true,
+            "corner_kick_alternative": false
+        }
+    },
+    {
+        "eventId": "REF_14",
+        "event_type": "referee_decision",
+        "sub_type": "added_time",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:45:00.000Z",
+        "minute": 90,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "time_details": {
+            "added_time_announced": 4,
+            "reason_for_added_time": "injuries_and_substitutions",
+            "total_stoppage_time": 4,
+            "time_used": 3
+        }
+    },
+    {
+        "eventId": "REF_15",
+        "event_type": "referee_decision",
+        "sub_type": "final_whistle",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:47:30.000Z",
+        "minute": 94,
+        "referee_id": "taylor_a",
+        "referee_name": "Anthony Taylor",
+        "match_end_details": {
+            "final_score": "2-1",
+            "winner": "Manchester United",
+            "match_duration": 94,
+            "total_added_time": 4,
+            "total_cards": {"yellow": 2, "red": 1},
+            "total_fouls": 17,
+            "VAR_reviews": 3,
+            "VAR_overturned_decisions": 0
+        }
+    }
+]

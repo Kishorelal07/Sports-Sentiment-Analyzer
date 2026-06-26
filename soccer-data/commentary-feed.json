@@ -1,0 +1,474 @@
+[
+    {
+        "eventId": "COMM_1",
+        "event_type": "commentary",
+        "sub_type": "kickoff_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:00:00.000Z",
+        "minute": 0,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Good evening and welcome to Old Trafford for this Premier League clash between Manchester United and Everton. The Reds are looking to bounce back from their recent form while Everton aim to secure three vital points. Diogo Dalot gets us underway!",
+        "sentiment": {
+            "tone": "neutral",
+            "excitement_level": 0.6,
+            "key_themes": ["introduction", "expectation"],
+            "sentiment_score": 0.1
+        },
+        "broadcast_info": {
+            "channel": "Sky Sports",
+            "audience_engagement": 0.75,
+            "live_viewers": 850000
+        }
+    },
+    {
+        "eventId": "COMM_2",
+        "event_type": "commentary",
+        "sub_type": "descriptive_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:02:15.000Z",
+        "minute": 2,
+        "commentator": "Gary Neville",
+        "commentary_text": "Early pressure from United here. Fernandes is dictating the tempo in midfield. You can see Casemiro alongside him, providing that defensive steel. Everton are sitting deep, looking to counter.",
+        "sentiment": {
+            "tone": "analytical",
+            "excitement_level": 0.4,
+            "key_themes": ["tactical_analysis", "player_performance"],
+            "sentiment_score": 0.2
+        }
+    },
+    {
+        "eventId": "COMM_3",
+        "event_type": "commentary",
+        "sub_type": "action_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:05:30.000Z",
+        "minute": 5,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Rashford with a shot from distance! Pickford watches it all the way and gathers comfortably. Good effort from the England international.",
+        "sentiment": {
+            "tone": "positive",
+            "excitement_level": 0.7,
+            "key_themes": ["shot_attempt", "goalkeeper_performance"],
+            "sentiment_score": 0.4
+        }
+    },
+    {
+        "eventId": "COMM_4",
+        "event_type": "commentary",
+        "sub_type": "tactical_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:08:45.000Z",
+        "minute": 8,
+        "commentator": "Jamie Carragher",
+        "commentary_text": "Everton's pressing has been excellent so far. Iwobi is working tirelessly to close down Fernandes. This is exactly what Sean Dyche wants to see from his team.",
+        "sentiment": {
+            "tone": "positive",
+            "excitement_level": 0.5,
+            "key_themes": ["pressing", "team_effort", "manager_tactics"],
+            "sentiment_score": 0.6
+        }
+    },
+    {
+        "eventId": "COMM_5",
+        "event_type": "commentary",
+        "sub_type": "descriptive_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:12:20.000Z",
+        "minute": 12,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Corner to Manchester United. Dalot to deliver. Good height on it... headed away by Tarkowski. The ball falls to Fernandes on the edge of the box!",
+        "sentiment": {
+            "tone": "excited",
+            "excitement_level": 0.8,
+            "key_themes": ["set_piece", "opportunity"],
+            "sentiment_score": 0.3
+        }
+    },
+    {
+        "eventId": "COMM_6",
+        "event_type": "commentary",
+        "sub_type": "goal_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:22:55.500Z",
+        "minute": 22,
+        "commentator": "Martin Tyler",
+        "commentary_text": "GOOOOAAAALLL! Bruno Fernandes! What a strike! From 22 yards out, he curls it beautifully into the top corner. Pickford had no chance! Fernandes gets United off to a perfect start!",
+        "sentiment": {
+            "tone": "excited",
+            "excitement_level": 0.95,
+            "key_themes": ["goal", "individual_brilliance", "team_momentum"],
+            "sentiment_score": 0.9
+        },
+        "goal_details": {
+            "scorer": "Bruno Fernandes",
+            "assist": "Marcus Rashford",
+            "goal_type": "curler",
+            "distance": 22,
+            "celebration_style": "arm_pump"
+        }
+    },
+    {
+        "eventId": "COMM_7",
+        "event_type": "commentary",
+        "sub_type": "analysis_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:24:10.000Z",
+        "minute": 24,
+        "commentator": "Gary Neville",
+        "commentary_text": "That was a world-class finish from Fernandes. Look at the technique - the way he opens up his body, the curl on the ball. Pickford was wrong-footed completely. This is the Fernandes we know and love.",
+        "sentiment": {
+            "tone": "admiring",
+            "excitement_level": 0.7,
+            "key_themes": ["technical_quality", "player_skill", "momentum"],
+            "sentiment_score": 0.8
+        }
+    },
+    {
+        "eventId": "COMM_8",
+        "event_type": "commentary",
+        "sub_type": "crowd_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:25:30.000Z",
+        "minute": 25,
+        "commentator": "Martin Tyler",
+        "commentary_text": "The Old Trafford crowd are absolutely roaring now! You can hear them singing 'Glory Glory Man United'. This is the atmosphere Erik ten Hag would have dreamed of.",
+        "sentiment": {
+            "tone": "enthusiastic",
+            "excitement_level": 0.8,
+            "key_themes": ["crowd_atmosphere", "home_advantage", "momentum"],
+            "sentiment_score": 0.7
+        }
+    },
+    {
+        "eventId": "COMM_9",
+        "event_type": "commentary",
+        "sub_type": "defensive_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:28:45.000Z",
+        "minute": 28,
+        "commentator": "Jamie Carragher",
+        "commentary_text": "Everton need to regroup here. They're conceding too much space in midfield. Doucouré needs to get tighter to Fernandes. This is basic defending we're seeing.",
+        "sentiment": {
+            "tone": "critical",
+            "excitement_level": 0.3,
+            "key_themes": ["defensive_weakness", "tactical_concerns"],
+            "sentiment_score": -0.4
+        }
+    },
+    {
+        "eventId": "COMM_10",
+        "event_type": "commentary",
+        "sub_type": "injury_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:32:15.000Z",
+        "minute": 32,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Oh, looks like there's an injury concern for Everton. Keane is down clutching his hamstring. The physio is on. This could be a blow for Everton with Tarkowski already suspended.",
+        "sentiment": {
+            "tone": "concerned",
+            "excitement_level": 0.4,
+            "key_themes": ["injury", "team_concerns", "squad_depth"],
+            "sentiment_score": -0.3
+        }
+    },
+    {
+        "eventId": "COMM_11",
+        "event_type": "commentary",
+        "sub_type": "referee_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:34:20.000Z",
+        "minute": 34,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Yellow card shown to Tom Davies. That was a late challenge on Casemiro. Davies was the last man, that could have been red. Taylor takes no chances.",
+        "sentiment": {
+            "tone": "stern",
+            "excitement_level": 0.6,
+            "key_themes": ["discipline", "referee_decision", "caution"],
+            "sentiment_score": -0.2
+        }
+    },
+    {
+        "eventId": "COMM_12",
+        "event_type": "commentary",
+        "sub_type": "tactical_shift",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:38:55.000Z",
+        "minute": 38,
+        "commentator": "Gary Neville",
+        "commentary_text": "Everton switching to a back five now. Dyche clearly wants to protect this result. Gray dropping deeper, Iwobi sitting in midfield. Practical football from the Toffees.",
+        "sentiment": {
+            "tone": "analytical",
+            "excitement_level": 0.5,
+            "key_themes": ["formation_change", "damage_limitation", "pragmatism"],
+            "sentiment_score": 0.1
+        }
+    },
+    {
+        "eventId": "COMM_13",
+        "event_type": "commentary",
+        "sub_type": "halftime_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T20:45:00.000Z",
+        "minute": 45,
+        "commentator": "Martin Tyler",
+        "commentary_text": "That's halftime at Old Trafford. Manchester United lead 1-0 through Bruno Fernandes' stunning strike. Everton have shown resilience but need to improve after the break.",
+        "sentiment": {
+            "tone": "summary",
+            "excitement_level": 0.6,
+            "key_themes": ["halftime", "score_update", "match_balance"],
+            "sentiment_score": 0.3
+        }
+    },
+    {
+        "eventId": "COMM_14",
+        "event_type": "commentary",
+        "sub_type": "second_half_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:00:00.000Z",
+        "minute": 45,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Welcome back to Old Trafford. No changes for either side at halftime. Everton get us back underway, hoping to find an equalizer.",
+        "sentiment": {
+            "tone": "neutral",
+            "excitement_level": 0.5,
+            "key_themes": ["restart", "expectation"],
+            "sentiment_score": 0.0
+        }
+    },
+    {
+        "eventId": "COMM_15",
+        "event_type": "commentary",
+        "sub_type": "substitution_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:02:30.000Z",
+        "minute": 47,
+        "commentator": "Martin Tyler",
+        "commentary_text": "First substitution of the game. For Manchester United, Sancho is making way for Anthony Martial. Sancho has been quiet today, Martial brings pace and directness.",
+        "sentiment": {
+            "tone": "analytical",
+            "excitement_level": 0.5,
+            "key_themes": ["tactical_change", "player_impact"],
+            "sentiment_score": 0.2
+        }
+    },
+    {
+        "eventId": "COMM_16",
+        "event_type": "commentary",
+        "sub_type": "pressure_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:05:40.000Z",
+        "minute": 50,
+        "commentator": "Jamie Carragher",
+        "commentary_text": "United are piling on the pressure now. Everton can't get out of their own half. The back five is working but they're being overrun in midfield.",
+        "sentiment": {
+            "tone": "intense",
+            "excitement_level": 0.7,
+            "key_themes": ["pressure", "dominance", "tactical_balance"],
+            "sentiment_score": 0.4
+        }
+    },
+    {
+        "eventId": "COMM_17",
+        "event_type": "commentary",
+        "sub_type": "save_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:08:25.000Z",
+        "minute": 53,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Brilliant save by Pickford! Ronaldo's header was destined for the top corner but Pickford tips it over! What a reaction save!",
+        "sentiment": {
+            "tone": "excited",
+            "excitement_level": 0.85,
+            "key_themes": ["goalkeeper_heroics", "near_miss"],
+            "sentiment_score": 0.6
+        }
+    },
+    {
+        "eventId": "COMM_18",
+        "event_type": "commentary",
+        "sub_type": "goal_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:12:30.000Z",
+        "minute": 57,
+        "commentator": "Martin Tyler",
+        "commentary_text": "GOOOOAAAALLL! Cristiano Ronaldo! What a finish! Martial's cross from the left, Ronaldo arrives late and powers it home! 2-0 Manchester United!",
+        "sentiment": {
+            "tone": "ecstatic",
+            "excitement_level": 0.98,
+            "key_themes": ["goal", "individual_quality", "team_performance"],
+            "sentiment_score": 0.95
+        },
+        "goal_details": {
+            "scorer": "Cristiano Ronaldo",
+            "assist": "Anthony Martial",
+            "goal_type": "header",
+            "celebration_style": "siuuu_pose"
+        }
+    },
+    {
+        "eventId": "COMM_19",
+        "event_type": "commentary",
+        "sub_type": "momentum_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:14:15.000Z",
+        "minute": 59,
+        "commentator": "Gary Neville",
+        "commentary_text": "United are playing with real confidence now. Ronaldo's goal has settled them. Everton look shell-shocked. This could be a long second half for the visitors.",
+        "sentiment": {
+            "tone": "confident",
+            "excitement_level": 0.7,
+            "key_themes": ["momentum", "confidence", "psychological_impact"],
+            "sentiment_score": 0.7
+        }
+    },
+    {
+        "eventId": "COMM_20",
+        "event_type": "commentary",
+        "sub_type": "VAR_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:18:40.000Z",
+        "minute": 63,
+        "commentator": "Martin Tyler",
+        "commentary_text": "The referee is checking the VAR monitor. It looks like there might be a foul in the build-up to Ronaldo's goal. Attwell is reviewing... and it's a good goal! No issues found.",
+        "sentiment": {
+            "tone": "tense",
+            "excitement_level": 0.6,
+            "key_themes": ["VAR_review", "decision_making", "relief"],
+            "sentiment_score": 0.3
+        }
+    },
+    {
+        "eventId": "COMM_21",
+        "event_type": "commentary",
+        "sub_type": "substitution_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:20:50.000Z",
+        "minute": 65,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Everton making a change. Richarlison comes on for Salomón Rondón. Dyche needs his team to show more attacking intent.",
+        "sentiment": {
+            "tone": "hopeful",
+            "excitement_level": 0.5,
+            "key_themes": ["tactical_adjustment", "fresh_legs"],
+            "sentiment_score": 0.3
+        }
+    },
+    {
+        "eventId": "COMM_22",
+        "event_type": "commentary",
+        "sub_type": "late_pressure_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:25:30.000Z",
+        "minute": 70,
+        "commentator": "Jamie Carragher",
+        "commentary_text": "Everton are throwing bodies forward now. United need to be careful. Richarlison is causing problems down the left. Don't switch off at the back, United!",
+        "sentiment": {
+            "tone": "warning",
+            "excitement_level": 0.7,
+            "key_themes": ["late_pressure", "danger", "concentration"],
+            "sentiment_score": 0.2
+        }
+    },
+    {
+        "eventId": "COMM_23",
+        "event_type": "commentary",
+        "sub_type": "card_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:27:15.000Z",
+        "minute": 72,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Yellow card for Lisandro Martínez. That was dissent after the referee's decision. Martínez is frustrated, but he needs to keep his cool.",
+        "sentiment": {
+            "tone": "critical",
+            "excitement_level": 0.5,
+            "key_themes": ["discipline", "frustration", "caution"],
+            "sentiment_score": -0.3
+        }
+    },
+    {
+        "eventId": "COMM_24",
+        "event_type": "commentary",
+        "sub_type": "consolidation_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:32:40.000Z",
+        "minute": 77,
+        "commentator": "Gary Neville",
+        "commentary_text": "United are managing this game well. They're keeping possession, moving the ball around. Everton can't find a way through. Professional performance from ten Hag's side.",
+        "sentiment": {
+            "tone": "positive",
+            "excitement_level": 0.6,
+            "key_themes": ["game_management", "professionalism", "control"],
+            "sentiment_score": 0.7
+        }
+    },
+    {
+        "eventId": "COMM_25",
+        "event_type": "commentary",
+        "sub_type": "late_drama_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:36:55.000Z",
+        "minute": 81,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Everton substitution: van de Beek comes on for Casemiro. United looking to run down the clock now. Everton need a miracle.",
+        "sentiment": {
+            "tone": "analytical",
+            "excitement_level": 0.4,
+            "key_themes": ["time_management", "substitution", "realism"],
+            "sentiment_score": 0.1
+        }
+    },
+    {
+        "eventId": "COMM_26",
+        "event_type": "commentary",
+        "sub_type": "card_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:38:20.000Z",
+        "minute": 83,
+        "commentator": "Martin Tyler",
+        "commentary_text": "Red card! Alex Iwobi gets a second yellow for simulation. He went down too easily in the box. Everton down to ten men now!",
+        "sentiment": {
+            "tone": "surprised",
+            "excitement_level": 0.8,
+            "key_themes": ["red_card", "controversy", "numerical_disadvantage"],
+            "sentiment_score": -0.5
+        }
+    },
+    {
+        "eventId": "COMM_27",
+        "event_type": "commentary",
+        "sub_type": "goal_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:44:30.000Z",
+        "minute": 89,
+        "commentator": "Martin Tyler",
+        "commentary_text": "GOOOOAAAALLL! Dominic Calvert-Lewin pulls one back for Everton! What a header! Gray's cross from the right, Calvert-Lewin beats Varane to it! 2-1!",
+        "sentiment": {
+            "tone": "excited",
+            "excitement_level": 0.92,
+            "key_themes": ["late_goal", "comeback", "drama"],
+            "sentiment_score": 0.8
+        },
+        "goal_details": {
+            "scorer": "Dominic Calvert-Lewin",
+            "assist": "Demarai Gray",
+            "goal_type": "header",
+            "celebration_style": "fist_pump"
+        }
+    },
+    {
+        "eventId": "COMM_28",
+        "event_type": "commentary",
+        "sub_type": "final_whistle_commentary",
+        "match_id": "muf-eve-pl-2025-11-24",
+        "timestamp": "2025-11-24T21:47:30.000Z",
+        "minute": 92,
+        "commentator": "Martin Tyler",
+        "commentary_text": "That's the final whistle! Manchester United win 2-1 in a thrilling Premier League encounter. Fernandes and Ronaldo with the goals, Calvert-Lewin scored late for Everton.",
+        "sentiment": {
+            "tone": "concluding",
+            "excitement_level": 0.7,
+            "key_themes": ["final_result", "match_summary", "satisfaction"],
+            "sentiment_score": 0.6
+        }
+    }
+]
