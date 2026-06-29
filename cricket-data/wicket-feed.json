@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "WKT_1",
+    "event_type": "wicket",
+    "sub_type": "caught",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:16:12",
+    "dismissal_type": "caught"
+  },
+  {
+    "event_id": "WKT_2",
+    "event_type": "wicket",
+    "sub_type": "bowled",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:31:12",
+    "dismissal_type": "bowled"
+  },
+  {
+    "event_id": "WKT_3",
+    "event_type": "wicket",
+    "sub_type": "lbw",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:43:12",
+    "dismissal_type": "lbw"
+  }
+]

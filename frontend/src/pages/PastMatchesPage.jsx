@@ -34,7 +34,7 @@ export default function PastMatchesPage() {
           {pastMatches.map((match) => (
             <Link
               key={match.id}
-              to={`/match/${match.matchId}`}
+              to={`/match/${match.matchId || match.match_id || match.id}`}
               className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-gray-300 transform hover:-translate-y-1"
             >
               <div className="flex justify-between items-start mb-4">

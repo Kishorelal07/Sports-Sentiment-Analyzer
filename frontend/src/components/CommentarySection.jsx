@@ -11,10 +11,10 @@ export default function CommentarySection({ matchId }) {
   
   useEffect(() => {
     if (!matchId) return
-    
-    const fetchCommentary = async () => {
+
+    const fetchCommentary = async (showLoading = false) => {
       try {
-        setLoading(true)
+        if (showLoading) setLoading(true)
         const response = await axios.get(`${API_BASE}/commentary/personalized`, {
           params: { userId, matchId }
         })
@@ -22,13 +22,13 @@ export default function CommentarySection({ matchId }) {
       } catch (error) {
         console.error('Error fetching commentary:', error)
       } finally {
-        setLoading(false)
+        if (showLoading) setLoading(false)
       }
     }
-    
-    fetchCommentary()
-    const interval = setInterval(fetchCommentary, 10000) // Refresh every 10 seconds
-    
+
+    fetchCommentary(true)
+    const interval = setInterval(() => fetchCommentary(false), 10000)
+
     return () => clearInterval(interval)
   }, [matchId, userId])
   

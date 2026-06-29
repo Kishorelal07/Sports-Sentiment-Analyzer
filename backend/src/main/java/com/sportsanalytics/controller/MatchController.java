@@ -36,12 +36,15 @@ public class MatchController {
     @GetMapping("/live")
     @Operation(summary = "Get live/ongoing match")
     public ResponseEntity<Match> getLiveMatch() {
-        // Return the first match as "live" (from mock data)
         List<Match> matches = matchService.getAllMatches();
-        if (!matches.isEmpty()) {
-            return ResponseEntity.ok(matches.get(0));
+        if (matches.isEmpty()) {
+            return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.notFound().build();
+        // Prefer the mock seed match when available
+        Optional<Match> seedMatch = matches.stream()
+            .filter(m -> "eng-aus-t20-2025-11-24".equals(m.getMatchId()))
+            .findFirst();
+        return ResponseEntity.ok(seedMatch.orElse(matches.get(0)));
     }
     
     @GetMapping("/{matchId}")

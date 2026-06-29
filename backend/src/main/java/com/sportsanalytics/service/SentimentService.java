@@ -39,6 +39,11 @@ public class SentimentService {
         
         // Load sentiment for default match
         String defaultMatchId = "eng-aus-t20-2025-11-24";
+        if (!sentimentRepository.findByMatchIdOrderByTimestampAsc(defaultMatchId).isEmpty()) {
+            log.info("Sentiment already loaded for {}, skipping ingestion", defaultMatchId);
+            return;
+        }
+        
         List<Sentiment> sentiments = activeAdapter.fetchSentiment(defaultMatchId, 10000);
         
         for (Sentiment sentiment : sentiments) {

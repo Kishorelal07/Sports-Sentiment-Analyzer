@@ -40,6 +40,11 @@ public class DataIngestionService {
         
         // Load events for the default match
         String defaultMatchId = "eng-aus-t20-2025-11-24";
+        if (!eventRepository.findByMatchIdOrderByTimestampAsc(defaultMatchId).isEmpty()) {
+            log.info("Events already loaded for {}, skipping ingestion", defaultMatchId);
+            return;
+        }
+        
         List<Event> events = activeAdapter.fetchEvents(defaultMatchId, 10000);
         
         for (Event event : events) {

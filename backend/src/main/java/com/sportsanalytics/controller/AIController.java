@@ -1,5 +1,6 @@
 package com.sportsanalytics.controller;
 
+import com.sportsanalytics.dto.AIPredictionResult;
 import com.sportsanalytics.service.CohereAIService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -32,10 +33,26 @@ public class AIController {
             return ResponseEntity.badRequest().build();
         }
 
-        String prediction = cohereAIService.generatePrediction(matchId, team1, team2, stats);
+        AIPredictionResult result = cohereAIService.generatePrediction(matchId, team1, team2, stats);
         Map<String, Object> response = new HashMap<>();
         response.put("matchId", matchId);
-        response.put("prediction", prediction);
+        response.put("prediction", result.getPrediction());
+        response.put("confidence", result.getConfidence());
+        response.put("reasoning", result.getReasoning());
+        response.put("source", "cohere-ai");
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/summary")
+    @Operation(summary = "Generate AI narrative match summary")
+    public ResponseEntity<Map<String, Object>> generateSummary(@RequestBody Map<String, Object> matchState) {
+        if (matchState == null || matchState.isEmpty()) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        String summary = cohereAIService.generateMatchSummary(matchState);
+        Map<String, Object> response = new HashMap<>();
+        response.put("summary", summary);
         response.put("source", "cohere-ai");
         return ResponseEntity.ok(response);
     }

@@ -1,0 +1,174 @@
+{
+  "match_id": "eng-aus-t20-2025-11-24",
+  "series": "England vs Australia T20 Series 2025",
+  "match_number": 3,
+  "format": "T20",
+  "date": "2025-11-24",
+  "venue": "Melbourne Cricket Ground",
+  "city": "Melbourne",
+  "country": "Australia",
+  "toss": {
+    "winner": "England",
+    "decision": "bat"
+  },
+  "teams": {
+    "team1": {
+      "name": "England",
+      "captain": "Jos Buttler",
+      "wicketkeeper": "Jos Buttler",
+      "players": [
+        {
+          "name": "Jos Buttler",
+          "id": "buttler_j",
+          "role": "Wicketkeeper-Batter"
+        },
+        {
+          "name": "Dawid Malan",
+          "id": "malan_d",
+          "role": "Batter"
+        },
+        {
+          "name": "Ben Stokes",
+          "id": "stokes_b",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Harry Brook",
+          "id": "brook_h",
+          "role": "Batter"
+        },
+        {
+          "name": "Moeen Ali",
+          "id": "moeen_a",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Chris Woakes",
+          "id": "woakes_c",
+          "role": "Bowler"
+        },
+        {
+          "name": "Mark Wood",
+          "id": "wood_m",
+          "role": "Bowler"
+        },
+        {
+          "name": "Adil Rashid",
+          "id": "rashid_a",
+          "role": "Bowler"
+        },
+        {
+          "name": "Jofra Archer",
+          "id": "archer_j",
+          "role": "Bowler"
+        },
+        {
+          "name": "Sam Curran",
+          "id": "curran_s",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Jonny Bairstow",
+          "id": "bairstow_j",
+          "role": "Batter"
+        }
+      ]
+    },
+    "team2": {
+      "name": "Australia",
+      "captain": "Aaron Finch",
+      "wicketkeeper": "Matthew Wade",
+      "players": [
+        {
+          "name": "David Warner",
+          "id": "warner_d",
+          "role": "Batter"
+        },
+        {
+          "name": "Aaron Finch",
+          "id": "finch_a",
+          "role": "Batter"
+        },
+        {
+          "name": "Steve Smith",
+          "id": "smith_s",
+          "role": "Batter"
+        },
+        {
+          "name": "Glenn Maxwell",
+          "id": "maxwell_g",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Marcus Stoinis",
+          "id": "stoinis_m",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Mitchell Marsh",
+          "id": "marsh_m",
+          "role": "All-rounder"
+        },
+        {
+          "name": "Pat Cummins",
+          "id": "cummins_p",
+          "role": "Bowler"
+        },
+        {
+          "name": "Mitchell Starc",
+          "id": "starc_m",
+          "role": "Bowler"
+        },
+        {
+          "name": "Adam Zampa",
+          "id": "zampa_a",
+          "role": "Bowler"
+        },
+        {
+          "name": "Josh Hazlewood",
+          "id": "hazlewood_j",
+          "role": "Bowler"
+        },
+        {
+          "name": "Matthew Wade",
+          "id": "wade_m",
+          "role": "Wicketkeeper-Batter"
+        }
+      ]
+    }
+  },
+  "umpires": [
+    {
+      "name": "Kumar Dharmasena",
+      "role": "On-field"
+    },
+    {
+      "name": "Marais Erasmus",
+      "role": "On-field"
+    }
+  ],
+  "innings": [
+    {
+      "number": 2,
+      "batting_team": "Australia",
+      "bowling_team": "England",
+      "total_runs": 142,
+      "total_wickets": 4,
+      "total_overs": 17.3,
+      "target": 180,
+      "extras": 8,
+      "boundaries": {
+        "fours": 12,
+        "sixes": 5
+      },
+      "note": "Australia chasing 180 in a tense run chase"
+    }
+  ],
+  "result": {
+    "status": "live",
+    "note": "Australia need 38 runs from 15 balls",
+    "projected_winner": "Australia",
+    "projected_margin": "narrow"
+  },
+  "data_source": "mock"
+}

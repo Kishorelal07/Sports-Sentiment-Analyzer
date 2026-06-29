@@ -1,5 +1,6 @@
 package com.sportsanalytics.service;
 
+import com.sportsanalytics.dto.AIPredictionResult;
 import com.sportsanalytics.model.Match;
 import com.sportsanalytics.model.Sentiment;
 import com.sportsanalytics.repository.EventRepository;
@@ -90,11 +91,15 @@ public class SimplePredictionService {
             stats.put("sentimentTrend", sentimentTrend);
             stats.put("wicketsRemaining", wicketsRemaining);
             
-            String aiPrediction = cohereAIService.generatePrediction(matchId, team1Name, team2Name, stats);
-            prediction.put("aiPrediction", aiPrediction);
+            AIPredictionResult aiResult = cohereAIService.generatePrediction(matchId, team1Name, team2Name, stats);
+            prediction.put("aiPrediction", aiResult.getPrediction());
+            prediction.put("aiConfidence", aiResult.getConfidence());
+            prediction.put("aiReasoning", aiResult.getReasoning());
         } catch (Exception e) {
             log.warn("Could not generate AI prediction", e);
             prediction.put("aiPrediction", "AI prediction unavailable");
+            prediction.put("aiConfidence", "Low");
+            prediction.put("aiReasoning", "AI prediction could not be generated.");
         }
         
         return prediction;

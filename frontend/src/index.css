@@ -60,11 +60,6 @@ code {
   animation: bounce-slow 2s ease-in-out infinite;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

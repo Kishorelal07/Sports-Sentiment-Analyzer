@@ -3,35 +3,28 @@ import useStore from '../store/useStore'
 import { format } from 'date-fns'
 
 export default function EventTimeline({ matchId }) {
-  const { events, addEvent } = useStore()
+  const { events } = useStore()
   const [filteredEvents, setFilteredEvents] = useState([])
   const [newEventCount, setNewEventCount] = useState(0)
-  const timelineEndRef = useRef(null)
+  const prevEventCountRef = useRef(0)
   
   useEffect(() => {
-    // Filter and sort events
     const filtered = events
       .filter(e => e.matchId === matchId)
       .filter(e => ['commentary', 'wicket', 'match_statistics'].includes(e.eventType))
       .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
-      .slice(-20) // Last 20 events
+      .slice(-20)
       .reverse()
     
-    const prevCount = filteredEvents.length
+    const prevCount = prevEventCountRef.current
     setFilteredEvents(filtered)
     
     if (filtered.length > prevCount && prevCount > 0) {
       setNewEventCount(filtered.length - prevCount)
       setTimeout(() => setNewEventCount(0), 2000)
     }
+    prevEventCountRef.current = filtered.length
   }, [events, matchId])
-  
-  useEffect(() => {
-    // Auto-scroll to bottom on new events
-    if (timelineEndRef.current) {
-      timelineEndRef.current.scrollIntoView({ behavior: 'smooth' })
-    }
-  }, [filteredEvents])
   
   const getEventIcon = (eventType) => {
     switch (eventType) {
@@ -88,6 +81,14 @@ export default function EventTimeline({ matchId }) {
                   {event.data.commentary_text}
                 </p>
               )}
+              {event.eventType === 'match_statistics' && event.data?.team_stats && (
+                <p className="text-sm text-gray-700 mt-1">
+                  Score update —{' '}
+                  {Object.entries(event.data.team_stats)
+                    .map(([team, stats]) => `${team}: ${stats.runs}/${stats.wickets} (${stats.overs} ov)`)
+                    .join(' • ')}
+                </p>
+              )}
               {event.eventType === 'wicket' && (
                 <div className="mt-2 inline-block bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">
                   🎯 WICKET! {event.data?.dismissal_type || 'Out'}
@@ -104,7 +105,6 @@ export default function EventTimeline({ matchId }) {
             <p className="text-sm text-gray-400 mt-1">Events will appear here as the match progresses</p>
           </div>
         )}
-        <div ref={timelineEndRef} />
       </div>
     </div>
   )

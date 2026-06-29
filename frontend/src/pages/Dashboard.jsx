@@ -27,10 +27,14 @@ export default function Dashboard() {
   }, [])
   
   useEffect(() => {
-    // Get live match
     if (matches.length > 0) {
-      setLiveMatch(matches[0]) // First match as live
-      fetchAIPrediction(matches[0].matchId, matches[0])
+      const preferred = matches.find(
+        (m) => (m.matchId || m.match_id) === 'eng-aus-t20-2025-11-24'
+      )
+      const live = preferred || matches[0]
+      setLiveMatch(live)
+      const id = live.matchId || live.match_id
+      fetchAIPrediction(id, live)
     }
   }, [matches])
   
@@ -83,7 +87,7 @@ export default function Dashboard() {
     <div className="px-4 py-6 animate-fadeIn space-y-6">
       {/* Hero Section - Live Match */}
       {liveMatch && (
-        <Link to={`/match/${liveMatch.matchId || liveMatch.id}`}>
+        <Link to={`/match/${liveMatch.matchId || liveMatch.match_id || liveMatch.id}`}>
           <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-xl shadow-2xl p-8 text-white hover:shadow-3xl transition-all duration-300 transform hover:scale-[1.01]">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-3">
@@ -225,7 +229,7 @@ export default function Dashboard() {
       {/* AI Chat Assistant */}
       {liveMatch && (
         <AIChat 
-          matchId={liveMatch.matchId} 
+          matchId={liveMatch.matchId || liveMatch.match_id} 
           matchContext={`Match: ${liveMatch.series}, Teams: ${Object.values(liveMatch.teams || {}).map(t => t.name).join(' vs ')}, Venue: ${liveMatch.venue}`}
         />
       )}
@@ -259,7 +263,7 @@ export default function Dashboard() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {matches.map((match, index) => {
-            const matchSlug = match.matchId || match.id
+            const matchSlug = match.matchId || match.match_id || match.id
             if (!matchSlug) {
               return (
                 <div key={match.id || index} className="bg-white rounded-xl shadow-md p-6 border border-red-200">

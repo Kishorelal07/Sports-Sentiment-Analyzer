@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import axios from 'axios'
+import { normalizeMatch } from '../utils/normalize'
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8080/api'
 
@@ -22,24 +23,31 @@ const useStore = create((set, get) => ({
     try {
       set({ loading: true })
       const response = await axios.get(`${API_BASE}/matches`)
-      set({ matches: response.data, loading: false })
+      set({ matches: (response.data || []).map(normalizeMatch), loading: false })
     } catch (error) {
       set({ error: error.message, loading: false })
     }
   },
   
-  fetchMatch: async (matchId) => {
+  fetchMatch: async (matchId, options = {}) => {
+    const silent = options.silent === true
     try {
-      set({ loading: true, error: null })
+      if (!silent) {
+        set({ loading: true, error: null })
+      }
       const response = await axios.get(`${API_BASE}/matches/${matchId}`)
       if (response.data) {
-        set({ currentMatch: response.data, loading: false })
-        return response.data
-      } else {
-        throw new Error('Match not found')
+        const match = normalizeMatch(response.data)
+        set({ currentMatch: match, ...(silent ? {} : { loading: false }) })
+        return match
       }
+      throw new Error('Match not found')
     } catch (error) {
       const errorMsg = error.response?.data?.message || error.message || 'Failed to load match'
+      if (silent) {
+        console.warn('Background match refresh failed:', errorMsg)
+        return get().currentMatch
+      }
       set({ error: errorMsg, loading: false, currentMatch: null })
       throw new Error(errorMsg)
     }
@@ -81,8 +89,6 @@ const useStore = create((set, get) => ({
       return response.data
     } catch (error) {
       console.warn('Failed to fetch prediction:', error)
-      set({ error: error.message })
-      // Don't throw, just return null so page can still load
       return null
     }
   },

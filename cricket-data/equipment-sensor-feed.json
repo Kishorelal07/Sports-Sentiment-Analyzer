@@ -1,0 +1,152 @@
+[
+  {
+    "event_id": "EQUIPMENT_SENSOR_1",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T14:30:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_2",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T14:33:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_3",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T14:36:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_4",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T14:39:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_5",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T14:42:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_6",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T14:45:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_7",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T14:48:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_8",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T14:51:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_9",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T14:54:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_10",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T14:57:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_11",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:00:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_12",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:03:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_13",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:06:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_14",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:09:00"
+  },
+  {
+    "event_id": "EQUIPMENT_SENSOR_15",
+    "event_type": "equipment_sensor",
+    "sub_type": "bat_impact",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:12:00"
+  }
+]

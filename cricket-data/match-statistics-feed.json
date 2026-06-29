@@ -1,0 +1,2378 @@
+[
+  {
+    "event_id": "STAT_1",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:03:24",
+    "team_stats": {
+      "australia": {
+        "runs": 4,
+        "wickets": 0,
+        "overs": 1.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 3.64,
+    "required_run_rate": 9.31
+  },
+  {
+    "event_id": "STAT_2",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:03:48",
+    "team_stats": {
+      "australia": {
+        "runs": 8,
+        "wickets": 0,
+        "overs": 1.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 6.67,
+    "required_run_rate": 9.15
+  },
+  {
+    "event_id": "STAT_3",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:04:12",
+    "team_stats": {
+      "australia": {
+        "runs": 8,
+        "wickets": 0,
+        "overs": 1.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 6.15,
+    "required_run_rate": 9.2
+  },
+  {
+    "event_id": "STAT_4",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:04:36",
+    "team_stats": {
+      "australia": {
+        "runs": 8,
+        "wickets": 0,
+        "overs": 1.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 5.71,
+    "required_run_rate": 9.25
+  },
+  {
+    "event_id": "STAT_5",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:05:00",
+    "team_stats": {
+      "australia": {
+        "runs": 10,
+        "wickets": 0,
+        "overs": 1.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 6.67,
+    "required_run_rate": 9.19
+  },
+  {
+    "event_id": "STAT_6",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 1,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:05:24",
+    "team_stats": {
+      "australia": {
+        "runs": 10,
+        "wickets": 0,
+        "overs": 1.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 6.25,
+    "required_run_rate": 9.24
+  },
+  {
+    "event_id": "STAT_7",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:06:24",
+    "team_stats": {
+      "australia": {
+        "runs": 14,
+        "wickets": 0,
+        "overs": 2.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 6.67,
+    "required_run_rate": 9.27
+  },
+  {
+    "event_id": "STAT_8",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:06:48",
+    "team_stats": {
+      "australia": {
+        "runs": 16,
+        "wickets": 0,
+        "overs": 2.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 7.27,
+    "required_run_rate": 9.21
+  },
+  {
+    "event_id": "STAT_9",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:07:12",
+    "team_stats": {
+      "australia": {
+        "runs": 17,
+        "wickets": 0,
+        "overs": 2.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 7.39,
+    "required_run_rate": 9.21
+  },
+  {
+    "event_id": "STAT_10",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:07:36",
+    "team_stats": {
+      "australia": {
+        "runs": 23,
+        "wickets": 0,
+        "overs": 2.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.58,
+    "required_run_rate": 8.92
+  },
+  {
+    "event_id": "STAT_11",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:08:00",
+    "team_stats": {
+      "australia": {
+        "runs": 23,
+        "wickets": 0,
+        "overs": 2.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.2,
+    "required_run_rate": 8.97
+  },
+  {
+    "event_id": "STAT_12",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 2,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:08:24",
+    "team_stats": {
+      "australia": {
+        "runs": 27,
+        "wickets": 0,
+        "overs": 2.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.38,
+    "required_run_rate": 8.79
+  },
+  {
+    "event_id": "STAT_13",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:09:24",
+    "team_stats": {
+      "australia": {
+        "runs": 27,
+        "wickets": 0,
+        "overs": 3.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.71,
+    "required_run_rate": 9.05
+  },
+  {
+    "event_id": "STAT_14",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:09:48",
+    "team_stats": {
+      "australia": {
+        "runs": 28,
+        "wickets": 0,
+        "overs": 3.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.75,
+    "required_run_rate": 9.05
+  },
+  {
+    "event_id": "STAT_15",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:10:12",
+    "team_stats": {
+      "australia": {
+        "runs": 30,
+        "wickets": 0,
+        "overs": 3.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.09,
+    "required_run_rate": 8.98
+  },
+  {
+    "event_id": "STAT_16",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:10:36",
+    "team_stats": {
+      "australia": {
+        "runs": 34,
+        "wickets": 0,
+        "overs": 3.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10,
+    "required_run_rate": 8.8
+  },
+  {
+    "event_id": "STAT_17",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:11:00",
+    "team_stats": {
+      "australia": {
+        "runs": 35,
+        "wickets": 0,
+        "overs": 3.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10,
+    "required_run_rate": 8.79
+  },
+  {
+    "event_id": "STAT_18",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 3,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:11:24",
+    "team_stats": {
+      "australia": {
+        "runs": 35,
+        "wickets": 0,
+        "overs": 3.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.72,
+    "required_run_rate": 8.84
+  },
+  {
+    "event_id": "STAT_19",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:12:24",
+    "team_stats": {
+      "australia": {
+        "runs": 36,
+        "wickets": 0,
+        "overs": 4.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.78,
+    "required_run_rate": 9.06
+  },
+  {
+    "event_id": "STAT_20",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:12:48",
+    "team_stats": {
+      "australia": {
+        "runs": 37,
+        "wickets": 0,
+        "overs": 4.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.81,
+    "required_run_rate": 9.05
+  },
+  {
+    "event_id": "STAT_21",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:13:12",
+    "team_stats": {
+      "australia": {
+        "runs": 37,
+        "wickets": 0,
+        "overs": 4.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.6,
+    "required_run_rate": 9.11
+  },
+  {
+    "event_id": "STAT_22",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:13:36",
+    "team_stats": {
+      "australia": {
+        "runs": 38,
+        "wickets": 0,
+        "overs": 4.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.64,
+    "required_run_rate": 9.1
+  },
+  {
+    "event_id": "STAT_23",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:14:00",
+    "team_stats": {
+      "australia": {
+        "runs": 39,
+        "wickets": 0,
+        "overs": 4.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.67,
+    "required_run_rate": 9.1
+  },
+  {
+    "event_id": "STAT_24",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 4,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:14:24",
+    "team_stats": {
+      "australia": {
+        "runs": 40,
+        "wickets": 0,
+        "overs": 4.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.7,
+    "required_run_rate": 9.09
+  },
+  {
+    "event_id": "STAT_25",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:15:24",
+    "team_stats": {
+      "australia": {
+        "runs": 40,
+        "wickets": 0,
+        "overs": 5.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 7.84,
+    "required_run_rate": 9.4
+  },
+  {
+    "event_id": "STAT_26",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:15:48",
+    "team_stats": {
+      "australia": {
+        "runs": 46,
+        "wickets": 0,
+        "overs": 5.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.85,
+    "required_run_rate": 9.05
+  },
+  {
+    "event_id": "STAT_27",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:16:12",
+    "team_stats": {
+      "australia": {
+        "runs": 46,
+        "wickets": 1,
+        "overs": 5.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.68,
+    "required_run_rate": 9.12
+  },
+  {
+    "event_id": "STAT_28",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:16:36",
+    "team_stats": {
+      "australia": {
+        "runs": 46,
+        "wickets": 1,
+        "overs": 5.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.52,
+    "required_run_rate": 9.18
+  },
+  {
+    "event_id": "STAT_29",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:17:00",
+    "team_stats": {
+      "australia": {
+        "runs": 47,
+        "wickets": 1,
+        "overs": 5.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.55,
+    "required_run_rate": 9.17
+  },
+  {
+    "event_id": "STAT_30",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 5,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:17:24",
+    "team_stats": {
+      "australia": {
+        "runs": 48,
+        "wickets": 1,
+        "overs": 5.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.57,
+    "required_run_rate": 9.17
+  },
+  {
+    "event_id": "STAT_31",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:18:24",
+    "team_stats": {
+      "australia": {
+        "runs": 49,
+        "wickets": 1,
+        "overs": 6.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.03,
+    "required_run_rate": 9.42
+  },
+  {
+    "event_id": "STAT_32",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:18:48",
+    "team_stats": {
+      "australia": {
+        "runs": 53,
+        "wickets": 1,
+        "overs": 6.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 8.55,
+    "required_run_rate": 9.2
+  },
+  {
+    "event_id": "STAT_33",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:19:12",
+    "team_stats": {
+      "australia": {
+        "runs": 59,
+        "wickets": 1,
+        "overs": 6.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.37,
+    "required_run_rate": 8.83
+  },
+  {
+    "event_id": "STAT_34",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:19:36",
+    "team_stats": {
+      "australia": {
+        "runs": 65,
+        "wickets": 1,
+        "overs": 6.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.16,
+    "required_run_rate": 8.46
+  },
+  {
+    "event_id": "STAT_35",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:20:00",
+    "team_stats": {
+      "australia": {
+        "runs": 67,
+        "wickets": 1,
+        "overs": 6.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.31,
+    "required_run_rate": 8.37
+  },
+  {
+    "event_id": "STAT_36",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 6,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:20:24",
+    "team_stats": {
+      "australia": {
+        "runs": 68,
+        "wickets": 1,
+        "overs": 6.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.3,
+    "required_run_rate": 8.36
+  },
+  {
+    "event_id": "STAT_37",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:21:24",
+    "team_stats": {
+      "australia": {
+        "runs": 74,
+        "wickets": 1,
+        "overs": 7.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.42,
+    "required_run_rate": 8.22
+  },
+  {
+    "event_id": "STAT_38",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:21:48",
+    "team_stats": {
+      "australia": {
+        "runs": 75,
+        "wickets": 1,
+        "overs": 7.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.42,
+    "required_run_rate": 8.2
+  },
+  {
+    "event_id": "STAT_39",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:22:12",
+    "team_stats": {
+      "australia": {
+        "runs": 79,
+        "wickets": 1,
+        "overs": 7.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.82,
+    "required_run_rate": 7.95
+  },
+  {
+    "event_id": "STAT_40",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:22:36",
+    "team_stats": {
+      "australia": {
+        "runs": 85,
+        "wickets": 1,
+        "overs": 7.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.49,
+    "required_run_rate": 7.54
+  },
+  {
+    "event_id": "STAT_41",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:23:00",
+    "team_stats": {
+      "australia": {
+        "runs": 86,
+        "wickets": 1,
+        "overs": 7.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.47,
+    "required_run_rate": 7.52
+  },
+  {
+    "event_id": "STAT_42",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 7,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:23:24",
+    "team_stats": {
+      "australia": {
+        "runs": 86,
+        "wickets": 1,
+        "overs": 7.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.32,
+    "required_run_rate": 7.58
+  },
+  {
+    "event_id": "STAT_43",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:24:24",
+    "team_stats": {
+      "australia": {
+        "runs": 86,
+        "wickets": 1,
+        "overs": 8.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.62,
+    "required_run_rate": 7.9
+  },
+  {
+    "event_id": "STAT_44",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:24:48",
+    "team_stats": {
+      "australia": {
+        "runs": 87,
+        "wickets": 1,
+        "overs": 8.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.61,
+    "required_run_rate": 7.88
+  },
+  {
+    "event_id": "STAT_45",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:25:12",
+    "team_stats": {
+      "australia": {
+        "runs": 91,
+        "wickets": 1,
+        "overs": 8.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.96,
+    "required_run_rate": 7.61
+  },
+  {
+    "event_id": "STAT_46",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:25:36",
+    "team_stats": {
+      "australia": {
+        "runs": 92,
+        "wickets": 1,
+        "overs": 8.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.95,
+    "required_run_rate": 7.59
+  },
+  {
+    "event_id": "STAT_47",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:26:00",
+    "team_stats": {
+      "australia": {
+        "runs": 98,
+        "wickets": 1,
+        "overs": 8.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.53,
+    "required_run_rate": 7.13
+  },
+  {
+    "event_id": "STAT_48",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 8,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:26:24",
+    "team_stats": {
+      "australia": {
+        "runs": 98,
+        "wickets": 1,
+        "overs": 8.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.4,
+    "required_run_rate": 7.19
+  },
+  {
+    "event_id": "STAT_49",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:27:24",
+    "team_stats": {
+      "australia": {
+        "runs": 98,
+        "wickets": 1,
+        "overs": 9.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.77,
+    "required_run_rate": 7.52
+  },
+  {
+    "event_id": "STAT_50",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:27:48",
+    "team_stats": {
+      "australia": {
+        "runs": 98,
+        "wickets": 1,
+        "overs": 9.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.65,
+    "required_run_rate": 7.59
+  },
+  {
+    "event_id": "STAT_51",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:28:12",
+    "team_stats": {
+      "australia": {
+        "runs": 100,
+        "wickets": 1,
+        "overs": 9.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.75,
+    "required_run_rate": 7.48
+  },
+  {
+    "event_id": "STAT_52",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:28:36",
+    "team_stats": {
+      "australia": {
+        "runs": 104,
+        "wickets": 1,
+        "overs": 9.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.06,
+    "required_run_rate": 7.17
+  },
+  {
+    "event_id": "STAT_53",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:29:00",
+    "team_stats": {
+      "australia": {
+        "runs": 110,
+        "wickets": 1,
+        "overs": 9.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.58,
+    "required_run_rate": 6.67
+  },
+  {
+    "event_id": "STAT_54",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 9,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:29:24",
+    "team_stats": {
+      "australia": {
+        "runs": 112,
+        "wickets": 1,
+        "overs": 9.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.67,
+    "required_run_rate": 6.54
+  },
+  {
+    "event_id": "STAT_55",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:30:24",
+    "team_stats": {
+      "australia": {
+        "runs": 112,
+        "wickets": 1,
+        "overs": 10.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.09,
+    "required_run_rate": 6.87
+  },
+  {
+    "event_id": "STAT_56",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:30:48",
+    "team_stats": {
+      "australia": {
+        "runs": 114,
+        "wickets": 1,
+        "overs": 10.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.18,
+    "required_run_rate": 6.73
+  },
+  {
+    "event_id": "STAT_57",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:31:12",
+    "team_stats": {
+      "australia": {
+        "runs": 114,
+        "wickets": 2,
+        "overs": 10.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.07,
+    "required_run_rate": 6.8
+  },
+  {
+    "event_id": "STAT_58",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:31:36",
+    "team_stats": {
+      "australia": {
+        "runs": 116,
+        "wickets": 2,
+        "overs": 10.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.15,
+    "required_run_rate": 6.67
+  },
+  {
+    "event_id": "STAT_59",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:32:00",
+    "team_stats": {
+      "australia": {
+        "runs": 118,
+        "wickets": 2,
+        "overs": 10.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.24,
+    "required_run_rate": 6.53
+  },
+  {
+    "event_id": "STAT_60",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 10,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:32:24",
+    "team_stats": {
+      "australia": {
+        "runs": 120,
+        "wickets": 2,
+        "overs": 10.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 11.32,
+    "required_run_rate": 6.38
+  },
+  {
+    "event_id": "STAT_61",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:33:24",
+    "team_stats": {
+      "australia": {
+        "runs": 120,
+        "wickets": 2,
+        "overs": 11.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.81,
+    "required_run_rate": 6.74
+  },
+  {
+    "event_id": "STAT_62",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:33:48",
+    "team_stats": {
+      "australia": {
+        "runs": 121,
+        "wickets": 2,
+        "overs": 11.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.8,
+    "required_run_rate": 6.7
+  },
+  {
+    "event_id": "STAT_63",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:34:12",
+    "team_stats": {
+      "australia": {
+        "runs": 123,
+        "wickets": 2,
+        "overs": 11.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.88,
+    "required_run_rate": 6.55
+  },
+  {
+    "event_id": "STAT_64",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:34:36",
+    "team_stats": {
+      "australia": {
+        "runs": 124,
+        "wickets": 2,
+        "overs": 11.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.88,
+    "required_run_rate": 6.51
+  },
+  {
+    "event_id": "STAT_65",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:35:00",
+    "team_stats": {
+      "australia": {
+        "runs": 126,
+        "wickets": 2,
+        "overs": 11.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.96,
+    "required_run_rate": 6.35
+  },
+  {
+    "event_id": "STAT_66",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 11,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:35:24",
+    "team_stats": {
+      "australia": {
+        "runs": 127,
+        "wickets": 2,
+        "overs": 11.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.95,
+    "required_run_rate": 6.31
+  },
+  {
+    "event_id": "STAT_67",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:36:24",
+    "team_stats": {
+      "australia": {
+        "runs": 129,
+        "wickets": 2,
+        "overs": 12.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.66,
+    "required_run_rate": 6.46
+  },
+  {
+    "event_id": "STAT_68",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:36:48",
+    "team_stats": {
+      "australia": {
+        "runs": 130,
+        "wickets": 2,
+        "overs": 12.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.66,
+    "required_run_rate": 6.41
+  },
+  {
+    "event_id": "STAT_69",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:37:12",
+    "team_stats": {
+      "australia": {
+        "runs": 130,
+        "wickets": 2,
+        "overs": 12.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.57,
+    "required_run_rate": 6.49
+  },
+  {
+    "event_id": "STAT_70",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:37:36",
+    "team_stats": {
+      "australia": {
+        "runs": 131,
+        "wickets": 2,
+        "overs": 12.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.56,
+    "required_run_rate": 6.45
+  },
+  {
+    "event_id": "STAT_71",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:38:00",
+    "team_stats": {
+      "australia": {
+        "runs": 132,
+        "wickets": 2,
+        "overs": 12.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.56,
+    "required_run_rate": 6.4
+  },
+  {
+    "event_id": "STAT_72",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 12,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:38:24",
+    "team_stats": {
+      "australia": {
+        "runs": 133,
+        "wickets": 2,
+        "overs": 12.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.56,
+    "required_run_rate": 6.35
+  },
+  {
+    "event_id": "STAT_73",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:39:24",
+    "team_stats": {
+      "australia": {
+        "runs": 134,
+        "wickets": 2,
+        "overs": 13.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.23,
+    "required_run_rate": 6.67
+  },
+  {
+    "event_id": "STAT_74",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:39:48",
+    "team_stats": {
+      "australia": {
+        "runs": 135,
+        "wickets": 2,
+        "overs": 13.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.23,
+    "required_run_rate": 6.62
+  },
+  {
+    "event_id": "STAT_75",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:40:12",
+    "team_stats": {
+      "australia": {
+        "runs": 137,
+        "wickets": 2,
+        "overs": 13.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.3,
+    "required_run_rate": 6.42
+  },
+  {
+    "event_id": "STAT_76",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:40:36",
+    "team_stats": {
+      "australia": {
+        "runs": 137,
+        "wickets": 2,
+        "overs": 13.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.22,
+    "required_run_rate": 6.52
+  },
+  {
+    "event_id": "STAT_77",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:41:00",
+    "team_stats": {
+      "australia": {
+        "runs": 139,
+        "wickets": 2,
+        "overs": 13.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.3,
+    "required_run_rate": 6.31
+  },
+  {
+    "event_id": "STAT_78",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 13,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:41:24",
+    "team_stats": {
+      "australia": {
+        "runs": 140,
+        "wickets": 2,
+        "overs": 13.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.29,
+    "required_run_rate": 6.25
+  },
+  {
+    "event_id": "STAT_79",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:42:24",
+    "team_stats": {
+      "australia": {
+        "runs": 142,
+        "wickets": 2,
+        "overs": 14.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.07,
+    "required_run_rate": 6.44
+  },
+  {
+    "event_id": "STAT_80",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:42:48",
+    "team_stats": {
+      "australia": {
+        "runs": 144,
+        "wickets": 2,
+        "overs": 14.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.14,
+    "required_run_rate": 6.21
+  },
+  {
+    "event_id": "STAT_81",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:43:12",
+    "team_stats": {
+      "australia": {
+        "runs": 144,
+        "wickets": 3,
+        "overs": 14.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.07,
+    "required_run_rate": 6.32
+  },
+  {
+    "event_id": "STAT_82",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:43:36",
+    "team_stats": {
+      "australia": {
+        "runs": 144,
+        "wickets": 3,
+        "overs": 14.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10,
+    "required_run_rate": 6.43
+  },
+  {
+    "event_id": "STAT_83",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:44:00",
+    "team_stats": {
+      "australia": {
+        "runs": 148,
+        "wickets": 3,
+        "overs": 14.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.21,
+    "required_run_rate": 5.82
+  },
+  {
+    "event_id": "STAT_84",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 14,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:44:24",
+    "team_stats": {
+      "australia": {
+        "runs": 148,
+        "wickets": 3,
+        "overs": 14.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.14,
+    "required_run_rate": 5.93
+  },
+  {
+    "event_id": "STAT_85",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:45:24",
+    "team_stats": {
+      "australia": {
+        "runs": 149,
+        "wickets": 3,
+        "overs": 15.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.87,
+    "required_run_rate": 6.33
+  },
+  {
+    "event_id": "STAT_86",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:45:48",
+    "team_stats": {
+      "australia": {
+        "runs": 155,
+        "wickets": 3,
+        "overs": 15.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.2,
+    "required_run_rate": 5.21
+  },
+  {
+    "event_id": "STAT_87",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:46:12",
+    "team_stats": {
+      "australia": {
+        "runs": 157,
+        "wickets": 3,
+        "overs": 15.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.26,
+    "required_run_rate": 4.89
+  },
+  {
+    "event_id": "STAT_88",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:46:36",
+    "team_stats": {
+      "australia": {
+        "runs": 157,
+        "wickets": 3,
+        "overs": 15.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.19,
+    "required_run_rate": 5
+  },
+  {
+    "event_id": "STAT_89",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:47:00",
+    "team_stats": {
+      "australia": {
+        "runs": 157,
+        "wickets": 3,
+        "overs": 15.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.13,
+    "required_run_rate": 5.11
+  },
+  {
+    "event_id": "STAT_90",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 15,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:47:24",
+    "team_stats": {
+      "australia": {
+        "runs": 157,
+        "wickets": 3,
+        "overs": 15.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.06,
+    "required_run_rate": 5.23
+  },
+  {
+    "event_id": "STAT_91",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:48:24",
+    "team_stats": {
+      "australia": {
+        "runs": 158,
+        "wickets": 3,
+        "overs": 16.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.81,
+    "required_run_rate": 5.64
+  },
+  {
+    "event_id": "STAT_92",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:48:48",
+    "team_stats": {
+      "australia": {
+        "runs": 159,
+        "wickets": 3,
+        "overs": 16.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.81,
+    "required_run_rate": 5.53
+  },
+  {
+    "event_id": "STAT_93",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:49:12",
+    "team_stats": {
+      "australia": {
+        "runs": 159,
+        "wickets": 3,
+        "overs": 16.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.75,
+    "required_run_rate": 5.68
+  },
+  {
+    "event_id": "STAT_94",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 4,
+    "timestamp": "2025-11-24T15:49:36",
+    "team_stats": {
+      "australia": {
+        "runs": 159,
+        "wickets": 3,
+        "overs": 16.4
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.7,
+    "required_run_rate": 5.83
+  },
+  {
+    "event_id": "STAT_95",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 5,
+    "timestamp": "2025-11-24T15:50:00",
+    "team_stats": {
+      "australia": {
+        "runs": 163,
+        "wickets": 3,
+        "overs": 16.5
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.88,
+    "required_run_rate": 4.86
+  },
+  {
+    "event_id": "STAT_96",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 16,
+    "ball_number": 6,
+    "timestamp": "2025-11-24T15:50:24",
+    "team_stats": {
+      "australia": {
+        "runs": 167,
+        "wickets": 3,
+        "overs": 16.6
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.06,
+    "required_run_rate": 3.82
+  },
+  {
+    "event_id": "STAT_97",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 17,
+    "ball_number": 1,
+    "timestamp": "2025-11-24T15:51:24",
+    "team_stats": {
+      "australia": {
+        "runs": 168,
+        "wickets": 3,
+        "overs": 17.1
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.82,
+    "required_run_rate": 4.14
+  },
+  {
+    "event_id": "STAT_98",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 17,
+    "ball_number": 2,
+    "timestamp": "2025-11-24T15:51:48",
+    "team_stats": {
+      "australia": {
+        "runs": 170,
+        "wickets": 3,
+        "overs": 17.2
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 9.88,
+    "required_run_rate": 3.57
+  },
+  {
+    "event_id": "STAT_99",
+    "event_type": "match_statistics",
+    "sub_type": "over_summary",
+    "match_id": "eng-aus-t20-2025-11-24",
+    "innings": 2,
+    "over_number": 17,
+    "ball_number": 3,
+    "timestamp": "2025-11-24T15:52:12",
+    "team_stats": {
+      "australia": {
+        "runs": 174,
+        "wickets": 3,
+        "overs": 17.3
+      },
+      "england": {
+        "runs": 179,
+        "wickets": 6,
+        "overs": 20
+      }
+    },
+    "run_rate": 10.06,
+    "required_run_rate": 2.22
+  }
+]

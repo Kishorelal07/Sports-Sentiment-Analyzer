@@ -7,12 +7,12 @@ export default function PredictionCard({ matchId }) {
   const [loading, setLoading] = useState(true)
   
   useEffect(() => {
-    const pred = predictions[`${matchId}_match_winner`]
+    const pred = predictions[matchId]
     if (pred) {
       setPrediction(pred)
       setLoading(false)
     } else {
-      fetchPrediction(matchId, 'match_winner')
+      fetchPrediction(matchId)
         .then(setPrediction)
         .finally(() => setLoading(false))
     }
@@ -102,13 +102,31 @@ export default function PredictionCard({ matchId }) {
         {/* AI Prediction Text */}
         {prediction.aiPrediction && (
           <div className="border-t border-purple-200 pt-4 mt-4">
-            <p className="text-xs text-gray-600 font-semibold mb-2 flex items-center">
-              <span className="mr-1">🤖</span>
-              AI Analysis
-            </p>
+            <div className="flex items-center justify-between mb-2">
+              <p className="text-xs text-gray-600 font-semibold flex items-center">
+                <span className="mr-1">🤖</span>
+                AI Analysis
+              </p>
+              {prediction.aiConfidence && (
+                <span
+                  className={`text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${
+                    prediction.aiConfidence === 'High'
+                      ? 'bg-green-100 text-green-700'
+                      : prediction.aiConfidence === 'Low'
+                        ? 'bg-red-100 text-red-700'
+                        : 'bg-amber-100 text-amber-700'
+                  }`}
+                >
+                  {prediction.aiConfidence} confidence
+                </span>
+              )}
+            </div>
             <p className="text-sm text-gray-700 leading-relaxed bg-white rounded-lg p-3">
               {prediction.aiPrediction}
             </p>
+            {prediction.aiReasoning && (
+              <p className="text-xs text-gray-500 mt-2 italic">{prediction.aiReasoning}</p>
+            )}
           </div>
         )}
         

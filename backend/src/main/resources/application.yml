@@ -12,6 +12,12 @@ spring:
       max-file-size: 10MB
       max-request-size: 10MB
 
+cohere:
+  api:
+    key: DkoYi8DTJN72nsB7nKwtVJCELzLO6Tsn6bqyY2Ai
+    enabled: true
+    base-url: https://api.cohere.com/v2
+
 server:
   port: ${SERVER_PORT:8080}
   error:

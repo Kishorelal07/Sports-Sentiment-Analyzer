@@ -9,10 +9,49 @@ import MediaCarousel from '../components/MediaCarousel'
 import WormChart from '../components/WormChart'
 import CommentarySection from '../components/CommentarySection'
 import AIChat from '../components/AIChat'
+import AISummaryCard from '../components/AISummaryCard'
+import { resolveMatchId } from '../utils/normalize'
+
+function buildMatchState(match, events) {
+  const innings = match?.innings?.[0] || {}
+  const statsEvents = (events || []).filter((e) => e.eventType === 'match_statistics')
+  const latestStats = statsEvents.length > 0 ? statsEvents[statsEvents.length - 1] : null
+  const teamStats = latestStats?.data?.team_stats || {}
+  const battingTeam = innings.battingTeam || 'Team 1'
+  const teamKey = battingTeam.toLowerCase()
+  const liveStats = teamStats[teamKey] || {}
+
+  const runs = liveStats.runs ?? innings.totalRuns ?? 0
+  const wickets = liveStats.wickets ?? innings.totalWickets ?? 0
+  const overs = liveStats.overs ?? innings.totalOvers ?? 0
+  const runRate = overs > 0 ? (runs / overs).toFixed(2) : '0.00'
+  const target = innings.target
+  const requiredRate =
+    target && overs > 0
+      ? ((target - runs) / Math.max(20 - overs, 0.1)).toFixed(2)
+      : null
+
+  return {
+    matchId: match.matchId || match.match_id,
+    series: match.series,
+    venue: match.venue,
+    format: match.format,
+    teams: match.teams,
+    score: `${runs}/${wickets}`,
+    runs,
+    wickets,
+    overs,
+    runRate: parseFloat(runRate),
+    requiredRate: requiredRate ? parseFloat(requiredRate) : null,
+    target,
+    battingTeam: innings.battingTeam,
+    bowlingTeam: innings.bowlingTeam,
+  }
+}
 
 export default function MatchDetail() {
   const { matchId } = useParams()
-  const { currentMatch, fetchMatch, fetchEvents, fetchSentiment, fetchPrediction, loading, error } = useStore()
+  const { currentMatch, fetchMatch, fetchEvents, fetchSentiment, fetchPrediction, events, error } = useStore()
   const [localLoading, setLocalLoading] = useState(true)
   const [localError, setLocalError] = useState(null)
   
@@ -44,21 +83,22 @@ export default function MatchDetail() {
         setLocalLoading(true)
         setLocalError(null)
       }
-      
-      // Load match data first (required)
-      await fetchMatch(matchId)
-      
-      // Load other data in parallel (optional)
-      Promise.all([
-        fetchEvents(matchId).catch(err => console.warn('Failed to load events:', err)),
-        fetchSentiment(matchId).catch(err => console.warn('Failed to load sentiment:', err)),
-        fetchPrediction(matchId).catch(err => console.warn('Failed to load prediction:', err))
+
+      const match = await fetchMatch(matchId, { silent: !showLoading })
+      const effectiveMatchId = resolveMatchId(match) || matchId
+
+      await Promise.all([
+        fetchEvents(effectiveMatchId).catch((err) => console.warn('Failed to load events:', err)),
+        fetchSentiment(effectiveMatchId).catch((err) => console.warn('Failed to load sentiment:', err)),
+        fetchPrediction(effectiveMatchId).catch((err) => console.warn('Failed to load prediction:', err)),
       ])
-      
+
       setLocalLoading(false)
     } catch (error) {
       console.error('Error loading match data:', error)
-      setLocalError(error.message || 'Failed to load match details')
+      if (showLoading) {
+        setLocalError(error.message || 'Failed to load match details')
+      }
       setLocalLoading(false)
     }
   }
@@ -74,7 +114,7 @@ export default function MatchDetail() {
     )
   }
   
-  if (localError || error) {
+  if (localError || (error && localLoading)) {
     return (
       <div className="flex items-center justify-center min-h-[400px]">
         <div className="text-center">
@@ -103,7 +143,11 @@ export default function MatchDetail() {
       </div>
     )
   }
-  
+
+  const matchState = buildMatchState(currentMatch, events)
+  const matchContextString = `${currentMatch.series}, ${currentMatch.venue}, Teams: ${Object.values(currentMatch.teams || {}).map((t) => t.name).join(' vs ')}`
+  const effectiveMatchId = resolveMatchId(currentMatch) || matchId
+
   return (
     <div className="px-4 py-6 space-y-6 animate-fadeIn">
       {/* Match Header */}
@@ -156,18 +200,20 @@ export default function MatchDetail() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 space-y-6">
           <LiveScoreboard match={currentMatch} />
-          <WormChart matchId={matchId} />
-          <EventTimeline matchId={matchId} />
-          <CommentarySection matchId={matchId} />
+          <AISummaryCard matchState={matchState} />
+          <WormChart matchId={effectiveMatchId} match={currentMatch} />
+          <EventTimeline matchId={effectiveMatchId} />
+          <CommentarySection matchId={effectiveMatchId} />
         </div>
         
         <div className="space-y-6">
-          <PredictionCard matchId={matchId} />
-          <SentimentChart matchId={matchId} />
-          <MediaCarousel matchId={matchId} />
+          <PredictionCard matchId={effectiveMatchId} />
+          <SentimentChart matchId={effectiveMatchId} />
+          <MediaCarousel matchId={effectiveMatchId} />
           <AIChat 
-            matchId={matchId}
-            matchContext={`${currentMatch.series}, ${currentMatch.venue}, Teams: ${Object.values(currentMatch.teams || {}).map(t => t.name).join(' vs ')}`}
+            matchId={effectiveMatchId}
+            matchContext={matchContextString}
+            matchState={matchState}
           />
         </div>
       </div>
